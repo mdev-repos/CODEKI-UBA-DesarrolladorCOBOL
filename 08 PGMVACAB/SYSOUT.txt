@@ -1,0 +1,99 @@
+000001                                                                        
+REGISTRO INVALIDO 
+ - DU 
+ - 00126789000 
+                                                                       
+ERRORES ENCONTRADOS: 
+ - FORMATO DE FECHA ERRONEO: 20240343 
+                                                                       
+                                                                       
+REGISTRO INVALIDO 
+ - PA 
+ - 00126789900 
+                                                                       
+ERRORES ENCONTRADOS: 
+ - FORMATO DE FECHA ERRONEO: 20110229 
+                                                                       
+                                                                       
+REGISTRO INVALIDO 
+ - PA 
+ - 00126444000 
+                                                                       
+ERRORES ENCONTRADOS: 
+ - FORMATO DE FECHA ERRONEO: 20240428 
+                                                                       
+                                                                       
+REGISTRO INVALIDO 
+ - CC 
+ - 00123333300 
+                                                                       
+ERRORES ENCONTRADOS: 
+ - TIPO DE DOCUMENTO ERRONEO: CC 
+ - TIPO DE CUENTA ERRONEO: 05 
+ - FORMATO DE FECHA ERRONEO: 20240413 
+                                                                       
+                                                                       
+REGISTRO INVALIDO 
+ - LD 
+ - 00123449000 
+                                                                       
+ERRORES ENCONTRADOS: 
+ - TIPO DE DOCUMENTO ERRONEO: LD 
+ - TIPO DE CUENTA ERRONEO: 06 
+ - FORMATO DE FECHA ERRONEO: 20240432 
+                                                                       
+                                                                       
+REGISTRO INVALIDO 
+ - DU 
+ - 00155789000 
+                                                                       
+ERRORES ENCONTRADOS: 
+ - FORMATO DE FECHA ERRONEO: 20240331 
+                                                                       
+                                                                       
+REGISTRO INVALIDO 
+ - DU 
+ - 00188889000 
+                                                                       
+ERRORES ENCONTRADOS: 
+ - FORMATO DE FECHA ERRONEO: 20240131 
+                                                                       
+                                                                       
+REGISTRO INVALIDO 
+ - DU 
+ - 00198789000 
+                                                                       
+ERRORES ENCONTRADOS: 
+ - FORMATO DE FECHA ERRONEO: 20230330 
+                                                                       
+                                                                       
+REGISTRO INVALIDO 
+ - PE 
+ - 00777789000 
+                                                                       
+ERRORES ENCONTRADOS: 
+ - FORMATO DE FECHA ERRONEO: 20230330 
+                                                                        
+                                                                        
+REGISTRO INVALIDO 
+ - DU 
+ - 00245689000 
+                                                                        
+ERRORES ENCONTRADOS: 
+ - FORMATO DE FECHA ERRONEO: 20090532 
+                                                                        
+                                                                        
+************************************************** 
+*                PROGRAMA PGMVACAB               * 
+************************************************** 
+                                                                        
+************************************************** 
+*                                                * 
+* CANTIDAD DE REGISTROS LEIDOS:   13             * 
+*                                                * 
+* CANTIDAD DE REGISTROS GRABADOS:    3           * 
+*                                                * 
+* CANTIDAD DE REGISTROS ERRONEOS:   10           * 
+*                                                * 
+************************************************** 
+                                                                       

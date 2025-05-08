@@ -1,0 +1,13 @@
+//KC03CABX JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID, 
+//             TIME=(,5)    ,RESTART=STEP2 
+//JCLLIB       JCLLIB ORDER=KC02787.CURSOS.PROCLIB 
+//************************************* 
+//* EJECUCION DE PROGRAMAS COMPILADOS * 
+//************************************* 
+//STEP2    EXEC PGM=PGMSUMA 
+//STEPLIB  DD DSN=KC03CAB.CURSOS.PGMLIB,DISP=SHR 
+//* 
+//SYSOUT   DD SYSOUT=* 
+//SYSUDUMP DD SYSOUT=* 
+//* 
+// 

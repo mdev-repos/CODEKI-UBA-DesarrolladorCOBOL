@@ -1,0 +1,34 @@
+//KC03CABE JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID, 
+//             TIME=(,5) 
+//************************************ 
+//* EJEMPLO EJECUCION JOB BATCH      * 
+//************************************ 
+//* 
+//STEP1     EXEC PGM=IDCAMS,COND=(8,LT) 
+//SYSPRINT  DD SYSOUT=* 
+//SYSIN     DD * 
+     DELETE   KC03CAB.SORT.SUCUR2 
+     SET MAXCC = 0 
+//* 
+//********************************* 
+//*     SORT POR SUC, CUENTA      * 
+//********************************* 
+//STEP2     EXEC PGM=SORT,COND=EVEN 
+//SYSOUT    DD SYSOUT=* 
+//SORTIN    DD DSN=KC03CAB.CURSOS.CORTE,DISP=SHR 
+//SORTOUT   DD DSN=KC03CAB.SORT.SUCUR2, 
+//             DISP=(,CATLG,DELETE), 
+//             SPACE=(TRK,(10,5),RLSE), 
+//             RECFM=FB 
+//SYSIN     DD * 
+ SORT       FORMAT=BI,FIELDS=(1,2,A,8,2,A) 
+//* 
+//************************************ 
+//* EJECUCION PROGRAMA CORTEC12      * 
+//************************************ 
+//STEP4     EXEC PGM=CORTEC12 
+//STEPLIB   DD DSN=KC03CAB.CURSOS.PGMLIB,DISP=SHR 
+//ENTRADA   DD DSN=KC03CAB.SORT.SUCUR2,DISP=SHR 
+//SYSOUT    DD SYSOUT=* 
+//SYSUDUMP  DD SYSOUT=* 
+//SYSIN     DD SYSOUT=* 

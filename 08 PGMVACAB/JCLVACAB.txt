@@ -1,0 +1,25 @@
+//KC03CABE JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID, 
+//             TIME=(,3) 
+//************************************ 
+//* EJEMPLO EJECUCION JOB BATCH      * 
+//************************************ 
+//* 
+//STEP1    EXEC PGM=IDCAMS,COND=(8,LT) 
+//SYSPRINT DD SYSOUT=* 
+//SYSIN    DD * 
+     DELETE   KC03CAB.CURSOS.NOVCLIEN.VALID 
+     DELETE   KC03CAB.SYSOUT 
+//* 
+//************************************ 
+//* EJECUCION PROGRAMA PGMVACAB      * 
+//************************************ 
+//STEP2    EXEC PGM=PGMVACAB 
+//STEPLIB  DD DSN=KC03CAB.CURSOS.PGMLIB,DISP=SHR 
+//ENTRADA  DD DSN=KC03CAB.CURSOS.NOVCLIEN,DISP=SHR 
+//SALIDA   DD DSN=KC03CAB.CURSOS.NOVCLIEN.VALID,DISP=(,CATLG), 
+//            UNIT=SYSDA,VOL=SER=ZASWO1, 
+//            DCB=(LRECL=55,BLKSIZE=0,RECFM=FB), 
+//            SPACE=(TRK,(1,1),RLSE) 
+//SYSOUT   DD DSN=KC03CAB.SYSOUT,DISP=(,CATLG,DELETE), 
+//            SPACE=(TRK,(100,10),RLSE),RECFM=FB,LRECL=80 
+//SYSUDUMP DD SYSOUT=* 

@@ -1,0 +1,34 @@
+//KC03CABE JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID, 
+//             TIME=(,5) 
+//************************************ 
+//* PGMCORT2 | CLASE ASINCRONICA 7   * 
+//************************************ 
+//* 
+//STEP1     EXEC PGM=IDCAMS,COND=(8,LT) 
+//SYSPRINT  DD SYSOUT=* 
+//SYSIN     DD * 
+     DELETE   KC03CAB.SORT.CORT2SUC 
+     SET MAXCC = 0 
+//* 
+//********************************* 
+//*  SORT POR TIPO-DOC Y SEXO     * 
+//********************************* 
+//STEP2     EXEC PGM=SORT,COND=EVEN 
+//SYSOUT    DD SYSOUT=* 
+//SORTIN    DD DSN=KC03CAB.CURSOS.CLICOB,DISP=SHR 
+//SORTOUT   DD DSN=KC03CAB.SORT.CORT2SUC, 
+//             DISP=(,CATLG,DELETE), 
+//             SPACE=(TRK,(10,5),RLSE), 
+//             RECFM=FB 
+//SYSIN     DD * 
+ SORT       FORMAT=BI,FIELDS=(1,2,A,54,1,A) 
+//* 
+//************************************ 
+//*   EJECUCION PROGRAMA PGMCORT2    * 
+//************************************ 
+//STEP4     EXEC PGM=PGMCORT2 
+//STEPLIB   DD DSN=KC03CAB.CURSOS.PGMLIB,DISP=SHR 
+//ENTRADA   DD DSN=KC03CAB.SORT.CORT2SUC,DISP=SHR 
+//SYSOUT    DD SYSOUT=* 
+//SYSUDUMP  DD SYSOUT=* 
+//SYSIN     DD SYSOUT=* 

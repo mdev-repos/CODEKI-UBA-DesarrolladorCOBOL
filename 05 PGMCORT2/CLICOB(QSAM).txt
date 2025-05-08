@@ -1,0 +1,24 @@
+DU00011200300JORGE ALBERTO PEREZ           SOLTERO   M                               00000100
+CI00012345678FLORENCIA ALVAREZ             CASADO    O                               00000200
+PA00008990099TINA TURNER                   VIUDO     F                               00000300
+PE00007888899ROBERTA FLACK                 DIVORCIADOF                               00000400
+DU00031200300LUIS MIGUEL                   SOLTERO   M                               00000500
+DU00012545678CRISTIAN CASTRO               SOLTERO   M                               00000600
+DU00008790099JULIAN ALBERTO FERRO          CASADO    M                               00000700
+DX00009888899OCTAVIO BENAVIDEZ             CASADO    M                               00000800
+DU0003F200300MARCELA TINELLI               SOLTERO   F                               00000900
+CI00012445678PEQUI SWARTZ                  CASADO    F                               00001000
+PA00008995599                              VIUDO     F                               00001100
+PE00007845699CECILIA BELLLO                DIVORCIADOJ                               00001200
+PE00032130300LUIS TUTTE                    FELIZRO   M                               00001300
+PE0001244D678AGUSTIN DELFINO               SOLTERO   M                               00001400
+JJ00008790099JULIAN ALBERTO FERRO          CASADO    M                               00001410
+DU00009888899OCTAVIO BENAVIDEZ             CASADO    M                               00001420
+DU00033200300MARCELA TINELLI               SOLTERO   F                               00001430
+CI00012445678PEQUI SWARTZ                  CASADO    F                               00001440
+PA00008995599ANTONIA RATTIN                VIUDO     F                               00001450
+PE00007845699CECILIA BELLLO                DIVORCIADOF                               00001460
+PE00032130300LUIS TUTTE                    SOLTERO   M                               00001470
+PE00012445678AGUSTIN DELFINO               SOLTERO   M                               00001480
+PA00028790099FERMIN PEPINILLO              CASADO    M                               00001500
+PA00009333399BENEDICTO PAPA                CASADO    M                               00001600
