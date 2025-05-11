@@ -45,3 +45,30 @@ significativos.
 * Para ejecutar, partir como esqueleto del programa <strong>JCLCORT1</strong> ( <em>JCL PROVISTO POR LA CÁTEDRA</em> ).
 
 </div>
+
+<hr>
+
+<div style="text-align:center">
+
+<h3>🛠️ Solución</h3>
+
+</div>
+
+<div style="text-align:justify">
+
+🎯 **Dificultades**  
+* Implementar correctamente la lógica de **corte de control** (inicialización, comparación de claves y procesamiento de totales).
+* Aplicar **máscaras de edición** para el formato de salida (eliminar ceros no significativos).
+* Manejar dos niveles de totalización: por sucursal y general.
+
+📂 **Archivos**  
+* `PGM2CCAB.cob` 🟦 (Programa con lógica de corte de control)  
+* `JCL2CCAB.txt` ⚙️ (Job para ejecución en Mainframe)  
+* `CORTE(COPY).txt` 📄 (Copybook con estructura del registro)  
+* `CORTE(QSAM).txt` 📁 (Dataset de entrada - QSAM)  
+* `SYSOUT.txt` 📋 (Ejemplo de salida esperada)
+
+📝 **Nota**
+* Primer programa con corte de control, técnica fundamental para reportes bancarios (ej: balances por sucursal).
+
+</div>

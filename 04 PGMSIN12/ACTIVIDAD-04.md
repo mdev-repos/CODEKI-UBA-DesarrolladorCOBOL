@@ -58,3 +58,29 @@ significativos.
 * Para ejecutar, partir como esqueleto del programa <strong>JCLCORT1</strong> ( <em>JCL PROVISTO POR LA CÁTEDRA</em> ).
 
 </div>
+
+<hr>
+
+<div style="text-align:center">
+
+<h3>🛠️ Solución</h3>
+
+</div>
+
+🎯 **Dificultades**  
+* Implementar **corte de control jerárquico** (sucursal > tipo de cuenta) manteniendo la lógica de totalización en ambos niveles.
+* Gestionar **saltos de control anidados** al detectar cambios en cualquiera de las dos claves.
+* Asegurar el formato correcto de los **DISPLAY** con sangrías para reflejar la jerarquía de datos.
+
+📂 **Archivos**  
+* `PGMSIN12.cob` 🟦 (Programa con corte de 2 niveles)  
+* `JCLSIN12.txt` ⚙️ (Job para ejecución en Mainframe)  
+* `CORTE(COPY).txt` 📄 (Copybook con estructura del registro)  
+* `CORTE(QSAM).txt` 📁 (Dataset de entrada - QSAM)  
+* `SYSOUT.txt` 📋 (Ejemplo de salida jerárquica) 
+
+📝 **Nota**
+* Este ejercicio simula reportes bancarios reales (ej: balances por sucursal y tipo de producto). Clave para entender cómo procesar datos jerárquicos en entornos legacy.
+
+💡 **Truco aprendido**
+* Usar EVALUATE para gestionar múltiples cortes es más limpio que anidar IFs.

@@ -31,3 +31,38 @@
 * Para ejecutar, partir como esqueleto del programa <strong>JCLAPAR</strong> ( <em>JCL PROVISTO POR LA CÁTEDRA</em> ).
 
 </div>
+
+<hr>
+
+<div style="text-align:center">
+
+<h3>🛠️ Solución</h3>
+
+</div>
+
+🎯 **Dificultades**
+* Implementar lógica de **apareo** (match/merge) entre archivos ordenados
+* Manejar **actualización de saldos** con importes con signo (+/-)
+* Gestionar **registros huérfanos** (movimientos sin cliente)
+* Garantizar **precondiciones** (archivos ordenados por clave)
+
+📂 **Archivos**  
+* `PGMAPCAB.cob` 🟦 (Programa de apareo bancario)  
+* `JCLAPCAB.txt` ⚙️ (Job con asignación de archivos)  
+* `CLIENTE(COPY).txt` 📄 (Copybook maestro)  
+* `MOVIMCC(COPY).txt` 📄 (Copybook de movimientos)  
+* `CLIENTE(QSAM).txt` 📁 (Dataset maestro)  
+* `MOVIMCC(QSAM).txt` 📁 (Dataset de transacciones)  
+* `SALIDA(QSAM).txt` 💾 (Clientes actualizados)  
+* `SYSOUT.txt` 📋 (Registros huérfanos y resumen) 
+
+💡 **Precondiciones** 
+* Ambos archivos deben estar ordenados.
+* Tipos de datos compatibles entre campos de apareo
+* Secuencia abierta para escritura en archivo SALIDA
+
+📝 **Nota**
+* Ejercicio fundamental para:
+    * Procesos batch bancarios (actualización nocturna de saldos)
+    * Reconciliaciones entre sistemas
+    * Migraciones de datos

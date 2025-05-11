@@ -24,5 +24,20 @@ Encontrarán un código COBOL que define variables de <em>WORKING STORAGE</em> y
 Se solicita adaptar dicho código; a efectos de realizar la suma de los primeros 10 números (de 1 a 10) y mostrar el resultado.
 El nombre del nuevo programa será <strong>PGMSUMA</strong>.
 
+</div>
+
+<hr>
+
+<div style="text-align:center">
+
+<h3>🛠️ Solución</h3>
 
 </div>
+
+🎯 **Dificultades**
+* Entender la estructura básica de un programa COBOL (DIVISIONs, WORKING-STORAGE).
+
+📂 **Archivos**
+* `PGMSUMA.cob` 🟦 (Código COBOL con la solución)
+* `JCLSUMA.txt` ⚙️ (Job para ejecutar el programa)
+* `SYSOUT.txt` 📋 (Ejemplo de salida esperada)

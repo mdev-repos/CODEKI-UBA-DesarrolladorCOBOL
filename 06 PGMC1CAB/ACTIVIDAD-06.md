@@ -28,3 +28,29 @@
 * Para ejecutar, partir como esqueleto del programa <strong>JCLEJEM1</strong> ( <em>JCL PROVISTO POR LA CÁTEDRA</em> ).
 
 </div>
+
+<hr>
+
+<div style="text-align:center">
+
+<h3>🛠️ Solución</h3>
+
+</div>
+
+🎯 **Dificultades**
+* Implementar **validación múltiple** de estados civiles con contadores independientes
+* Manejar **lectura secuencial** con acumuladores condicionales
+* Garantizar que **todos los registros** sean contabilizados (tanto válidos como totales)
+
+📂 **Archivos**  
+* `PGMC1CAB.cob` 🟦 (Programa con validación por estado civil)  
+* `JCLC1CAB.txt` ⚙️ (Job para ejecución en Mainframe)  
+* `CLICOB(COPY).txt` 📄 (Copybook con estructura de 93 bytes)  
+* `CLICOB(QSAM).txt` 📁 (Dataset de clientes)  
+* `SYSOUT.txt` 📋 (Ejemplo de reporte final)  
+
+📝 **Nota**
+* Programa fundamental para análisis demográficos en sistemas bancarios (ej: segmentación de clientes).
+
+⚡ **Dato técnico**
+* El archivo CLICOB de 93 bytes es típico en sistemas legacy bancarios para almacenar datos maestros de clientes.

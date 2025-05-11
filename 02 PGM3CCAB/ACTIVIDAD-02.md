@@ -27,3 +27,29 @@ funcionalidad solicitada
 * Para ejecutar, partir como esqueleto del programa <strong>EJESUIMP</strong> ( <em>JCL PROVISTO POR LA CÁTEDRA</em> ).
 
 </div>
+
+<hr>
+
+<div style="text-align:center">
+
+<h3>🛠️ Solución</h3>
+
+</div>
+
+<div style="text-align:justify">
+
+🎯 **Dificultades**  
+* Implementar correctamente la condición `IF CLI-TIP-DOC = 'DU'` dentro del flujo de lectura secuencial.
+* Inicializar y actualizar el totalizador (`WS-TOTAL-DU`) sin interferir con el proceso principal.
+
+📂 **Archivos**  
+* `PGM3CCAB.cob` 🟦 (Lógica de filtrado y suma de saldos)  
+* `JCL3CCAB.txt` ⚙️ (Job con asignación del archivo CLIENTES)  
+* `CPCLI(COPY).txt` 📄 (Copybook con estructura del registro)  
+* `CLIENTE(QSAM).txt` 📁 (Dataset de entrada - QSAM) 
+* `SYSOUT.txt` 📋 (Ejemplo de salida esperada)
+
+📝 **Nota**
+* Primer contacto con filtrado de registros y totalizadores en COBOL. ¡Esencial para procesamiento batch bancario!.
+
+</div>

@@ -1,0 +1,9 @@
+**************************************************      
+*                 PROGRAMA PGM3CCAB              *      
+**************************************************      
+                                                        
+* CANTIDAD TOTAL DE REGISTROS LEIDOS:        65         
+* CANTIDAD DE DOCUMENTOS TIPO DU:        55             
+* SALDO ACUMULADO EN ESAS CUENTAS:  $     97.442.823,60 
+                                                        
+**************************************************      

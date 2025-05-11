@@ -37,3 +37,36 @@
 * Para ejecutar, partir como esqueleto del programa <strong>JCLEJEM1</strong> ( <em>JCL PROVISTO POR LA CÁTEDRA</em> ).
 
 </div>
+
+<hr>
+
+<div style="text-align:center">
+
+<h3>🛠️ Solución</h3>
+
+</div>
+
+🎯 **Dificultades**
+* Implementar **doble flujo de salida** (archivo válidos + mensajes por pantalla)
+* Gestionar **secuencia automática** en campo NOV-SECUEN
+* Mantener **contadores precisos** para métricas finales (válidos, inválidos, totales)
+
+📂 **Archivos**  
+* `PGMSIN14.cob` 🟦 (Programa con validación y doble salida)  
+* `JCLSIN14.txt` ⚙️ (Job con asignación de archivos)  
+* `CPNOVCLI(COPY).txt` 📄 (Copybook de entrada - 50 bytes)  
+* `CPNCLIV(COPY).txt` 📄 (Copybook de salida para válidos)  
+* `NOVCLIEN(QSAM).txt` 📁 (Dataset de novedades)  
+* `SYSOUT.txt` 📋 (Ejemplo de salida con estadísticas) 
+
+📝 **Nota**
+* Ejercicio clave para procesamiento de novedades en bancos (ej: validación de documentos en altas de clientes).
+Implementa el patrón típico de filtrado ETL en sistemas legacy.
+
+⚙️ **Detalle JCL**
+* El job debe definir ambos DD:
+    * NOVCLIEN (INPUT)
+    * NOVALIDOS (OUTPUT)
+
+📊 **Métrica profesional**
+* El ratio VÁLIDOS/INVÁLIDOS ayuda a detectar problemas en la fuente de datos.

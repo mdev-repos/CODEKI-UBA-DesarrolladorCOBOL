@@ -51,3 +51,32 @@ no se encuentra el producto; realizar mismo DISPLAY que punto 2.
 
 
 </div>
+
+<hr>
+
+<div style="text-align:center">
+
+<h3>🛠️ Solución</h3>
+
+</div>
+
+🎯 **Dificultades**
+* Implementar **búsqueda secuencial** en arreglos COBOL
+* Manejar **acoplamiento de datos** desde dos archivos distintos
+* Optimizar el **mapeo productos-precios** en memoria
+
+📂 **Archivos**  
+* `PGMTACAB.cob` 🟦 (Programa con vector embebido)  
+* `JCLTACAB.txt` ⚙️ (Job para ejecución)  
+* `PRODUCT1(QSAM).txt` 📁 (Catálogo de productos)  
+* `PRECIO(QSAM).txt` 💰 (Listado de precios)  
+* `SYSOUT.txt` 📋 (Reporte final de productos+precios)
+
+📝 **Nota**
+* Patrón esencial para:
+    * Sistemas de inventarios
+    * Catálogos de productos
+    * Procesos de pricing
+
+💡 **Técnica aprendida** 
+* Uso de OCCURS con VECTORES.
