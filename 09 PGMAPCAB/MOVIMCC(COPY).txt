@@ -1,0 +1,20 @@
+      **************************************                            
+      * LAY-OUT MOVIMIENTOS                                             
+      * LARGO REGISTRO: 80 BYTES                                        
+      **************************************                            
+       01  WS-REG-MOVIMI.                                               
+      * WS-MOV-NRO NRO. CLIENTE AL QUE PERTENECE EL MOVIMIENTO.         
+           03  WS-MOV-NRO          PIC 9(05)        VALUE ZEROS.        
+           03  WS-MOV-CLAVE.                                            
+      *    02 CUENTAS CORRIENTES                                        
+      *    03 CAJA DE AHORROS                                           
+      *    04 PLAZO FIJO                                                
+               05  WS-MOV-TIPO         PIC 9(02)        VALUE ZEROS.    
+               05  WS-MOV-CUENTA       PIC 9(08)        VALUE ZEROS.    
+                                                                        
+           03  WS-MOV-IMPORTE          PIC S9(09)V99    VALUE ZEROS.    
+      *    FORMATO FECHA AAAAMMDD                                       
+           03  WS-MOV-FECHA            PIC 9(08)        VALUE ZEROS.    
+                                                                        
+           03  FILLER                  PIC X(46)        VALUE SPACES.   
+                                                                        

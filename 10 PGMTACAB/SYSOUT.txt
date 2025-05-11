@@ -1,0 +1,97 @@
+************************************                                            
+* PRODCUTO NO ENCONTRADO | COD. 70 *                                            
+************************************                                            
+************************************                                            
+* PRODCUTO NO ENCONTRADO | COD. 90 *                                            
+************************************                                            
+************************************                                            
+* PRODCUTO NO ENCONTRADO | COD. 97 *                                            
+************************************                                            
+                                                                                
+**************************************************                              
+*                PROGRAMA PGMTACAB               *                              
+**************************************************                              
+                                                                                
+**************************************************                              
+*                                                *                              
+*  REGISTROS DE PRODUCTOS LEIDOS:  10            *                              
+*                                                *                              
+*  REGISTROS DE PRECIOS LEIDOS:    13            *                              
+*                                                *                              
+**************************************************                              
+                                                                                
+**************************************************                              
+*                                                *                              
+*              VECTOR DE PRODUCTOS               *                              
+*                                                *                              
+**************************************************                              
+*                                                *                              
+* PRODUCTO NRO: 01                               *                              
+* CODIGO:       01                               *                              
+* DENOMINACION: PRODUCTO UNO                     *                              
+* PRECIO:       $100,10                          *                              
+*                                                *                              
+**************************************************                              
+*                                                *                              
+* PRODUCTO NRO: 02                               *                              
+* CODIGO:       20                               *                              
+* DENOMINACION: PRODUCTO VEINTE                  *                              
+* PRECIO:       $200,20                          *                              
+*                                                *                              
+**************************************************                              
+*                                                *                              
+* PRODUCTO NRO: 03                               *                              
+* CODIGO:       30                               *                              
+* DENOMINACION: PRODUCTO TREINTA                 *                              
+* PRECIO:       $300,30                          *                              
+*                                                *                              
+**************************************************                              
+*                                                *                              
+* PRODUCTO NRO: 04                               *                              
+* CODIGO:       40                               *                              
+* DENOMINACION: PRODUCTO CUARENTA                *                              
+* PRECIO:       $400,40                          *                              
+*                                                *                              
+**************************************************                              
+*                                                *                              
+* PRODUCTO NRO: 05                               *                              
+* CODIGO:       50                               *                              
+* DENOMINACION: PRODUCTO CINCUENTA               *                              
+* PRECIO:       $500,50                          *                              
+*                                                *                              
+**************************************************                              
+*                                                *                              
+* PRODUCTO NRO: 06                               *                              
+* CODIGO:       60                               *                              
+* DENOMINACION: PRODUCTO SESENTA                 *                              
+* PRECIO:       $600,60                          *                              
+*                                                *                              
+**************************************************                              
+*                                                *                              
+* PRODUCTO NRO: 07                               *                              
+* CODIGO:       80                               *                              
+* DENOMINACION: PRODUCTO OCHENTA                 *                              
+* PRECIO:       $800,80                          *                              
+*                                                *                              
+**************************************************                              
+*                                                *                              
+* PRODUCTO NRO: 08                               *                              
+* CODIGO:       91                               *                              
+* DENOMINACION: PRODUCTO NOVENTA Y 1             *                              
+* PRECIO:       $910,91                          *                              
+*                                                *                              
+**************************************************                              
+*                                                *                              
+* PRODUCTO NRO: 09                               *                              
+* CODIGO:       93                               *                              
+* DENOMINACION: PRODUCTO NOVENTA Y 3             *                              
+* PRECIO:       $930,93                          *                              
+*                                                *                              
+**************************************************                              
+*                                                *                              
+* PRODUCTO NRO: 10                               *                              
+* CODIGO:       98                               *                              
+* DENOMINACION: PRODUCTO NOVENTA Y 8             *                              
+* PRECIO:       $990,99                          *                              
+*                                                *                              
+**************************************************                              

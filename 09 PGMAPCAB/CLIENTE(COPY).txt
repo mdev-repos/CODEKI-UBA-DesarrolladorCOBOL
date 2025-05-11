@@ -1,0 +1,18 @@
+      **************************************                            
+      *         LAYOUT CLIENTES            *                            
+      *         LARGO REGISTRO: 30 BYTES   *                            
+      **************************************                            
+       01  WS-REG-CLIENTE.                                              
+           03  WS-CLI-CLAVE.                                            
+              05  WS-CLI-NRO          PIC 9(05)       VALUE ZEROS.      
+      *    02 CUENTAS CORRIENTES                                        
+      *    03 CAJA DE AHORROS                                           
+      *    04 PLAZO FIJO                                                
+              05  WS-CLI-TIPO         PIC 9(02)       VALUE ZEROS.      
+              05  WS-CLI-CUENTA       PIC 9(08)       VALUE ZEROS.      
+                                                                        
+           03  WS-CLI-SALDO           PIC S9(09)V99   VALUE ZEROS.      
+                                                                        
+           03  FILLER                 PIC X(04)       VALUE SPACES.     
+                                                                        
+                                                                        

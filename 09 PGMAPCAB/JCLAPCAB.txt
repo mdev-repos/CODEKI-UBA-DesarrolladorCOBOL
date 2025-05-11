@@ -1,0 +1,59 @@
+//KC03CABE JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,        
+//             TIME=(,3)   ,RESTART=STEP4                               
+//*                                                                     
+//*****************************************                             
+//* BORRADO DE ARCHIVOS DE SALIDA PREVIOS *                             
+//*****************************************                             
+//*                                                                     
+//STEP1    EXEC PGM=IDCAMS,COND=(8,LT)                                  
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+   DELETE KC03CAB.CURSOS.SORT.CLIENTE                                   
+   DELETE KC03CAB.CURSOS.SORT.MOVIMICC                                  
+   DELETE KC03CAB.CURSOS.SALIDA.PGMAPCAB                                
+   SET MAXCC=00                                                         
+//*                                                                     
+//*************************************                                 
+//*    SORT DE ARCHIVO ( CLIENTE )    *                                 
+//*************************************                                 
+//*                                                                     
+//STEP2    EXEC PGM=SORT,COND=EVEN                                      
+//SYSOUT   DD SYSOUT=*                                                  
+//SORTIN   DD DSN=KC03CAB.CURSOS.CLIENTE,DISP=SHR                       
+//SORTOUT  DD DSN=KC03CAB.CURSOS.SORT.CLIENTE,                          
+//             DISP=(,CATLG,DELETE),                                    
+//             SPACE=(TRK,(10,5),RLSE),                                 
+//             RECFM=FB,LRECL=30                                        
+//SYSIN    DD *                                                         
+ SORT FIELDS=(6,2,CH,A,8,8,CH,A)                                        
+//*                                                                     
+//*************************************                                 
+//*    SORT DE ARCHIVO ( MOVIMICC )   *                                 
+//*************************************                                 
+//*                                                                     
+//STEP3    EXEC PGM=SORT,COND=EVEN                                      
+//SYSOUT   DD SYSOUT=*                                                  
+//SORTIN   DD DSN=KC03CAB.CURSOS.MOVIMICC,DISP=SHR                      
+//SORTOUT  DD DSN=KC03CAB.CURSOS.SORT.MOVIMICC,                         
+//             DISP=(,CATLG,DELETE),                                    
+//             SPACE=(TRK,(10,5),RLSE),                                 
+//             RECFM=FB,LRECL=80                                        
+//SYSIN    DD *                                                         
+ SORT FIELDS=(6,2,CH,A,8,8,CH,A)                                        
+//*                                                                     
+//*************************************                                 
+//*   MANEJO DE ARCHIVOS | PGMAPCAB   *                                 
+//*************************************                                 
+//*                                                                     
+//STEP4    EXEC PGM=PGMAPCAB                                            
+//STEPLIB  DD DSN=KC03CAB.CURSOS.PGMLIB,DISP=SHR                        
+//CLIENTES DD DSN=KC03CAB.CURSOS.SORT.CLIENTE,DISP=SHR                  
+//MOVTOS   DD DSN=KC03CAB.CURSOS.SORT.MOVIMICC,DISP=SHR                 
+//SALIDA   DD DSN=KC03CAB.CURSOS.SALIDA.PGMAPCAB,                       
+//             DISP=(,CATLG,DELETE),                                    
+//             SPACE=(TRK,(10,5),RLSE),                                 
+//             RECFM=FB,LRECL=30                                        
+//SYSOUT   DD SYSOUT=*                                                  
+//SYSUDUMP DD SYSOUT=*                                                  
+//SYSIN    DD SYSOUT=*                                                  
+//*                                                                     

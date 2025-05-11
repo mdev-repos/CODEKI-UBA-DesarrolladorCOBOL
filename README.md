@@ -19,3 +19,4 @@
 |07| <strong>PGMCS14</strong> |Lectura de Archivo <br> Validación de (1) Campo <br> Escritura de Archivo|Archivo (Entrada) <br> Archivo (Salida)|QSAM (Entrada) <br> QSAM (Salida)|
 |08| <strong>PGMVACAB</strong> |Lectura de Archivo <br> Validacion de Campos <br> Escritura de Archivo|Archivo (Entrada) <br> Archivo (Salida)|QSAM (Entrada) <br> QSAM (Salida)|
 |09| <strong>PGMAPCAB</strong> |Lectura de Archivos (2) <br> Apareo de Archivos <br> Escritura de Archivo|Archivos (Entrada) <br> Archivo (Salida)|QSAM (Entradas) <br> QSAM (Salida)|
+|10| <strong>PGMTACAB</strong> |Lectura de Archivos (2) <br> Uso de Vectores (OCCURS)|Archivos (Entrada)|QSAM (Entradas)|

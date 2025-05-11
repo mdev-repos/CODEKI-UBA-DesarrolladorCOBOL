@@ -1,0 +1,14 @@
+//KC03CABE JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,  
+//             TIME=(,5)                                          
+//*******************************                                 
+//* EJECUCION PROGRAMA PGMTACAB *                                 
+//*******************************                                 
+//STEP1    EXEC PGM=PGMTACAB                                      
+//STEPLIB  DD DSN=KC03CAB.CURSOS.PGMLIB,DISP=SHR                  
+//PRODUCTO DD DSN=KC03CAB.CURSOS.PRODUCT1,DISP=SHR                
+//PRECIO   DD DSN=KC03CAB.CURSOS.PRECIO,DISP=SHR                  
+//SYSOUT   DD SYSOUT=*                                            
+//SYSPRINT DD SYSOUT=*                                            
+//SYSUDUMP DD SYSOUT=*                                            
+//SYSIN    DD SYSOUT=*                                            
+//*                                                               

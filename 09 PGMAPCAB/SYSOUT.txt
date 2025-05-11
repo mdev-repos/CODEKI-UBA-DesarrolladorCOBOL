@@ -1,0 +1,49 @@
+                                                                                
+* CLAVE DE MOVIMIENTO NO ENCONTRADA EN CLIENTE *                                
+ - NRO DE MOVIMIENTO: 01016                                                     
+ - TIPO DE CUENTA: 02                                                           
+ - NRO DE CUENTA: 00000016                                                      
+                                                                                
+* CLAVE DE MOVIMIENTO NO ENCONTRADA EN CLIENTE *                                
+ - NRO DE MOVIMIENTO: 01017                                                     
+ - TIPO DE CUENTA: 02                                                           
+ - NRO DE CUENTA: 00000017                                                      
+                                                                                
+* CLAVE DE MOVIMIENTO NO ENCONTRADA EN CLIENTE *                                
+ - NRO DE MOVIMIENTO: 01018                                                     
+ - TIPO DE CUENTA: 02                                                           
+ - NRO DE CUENTA: 00000018                                                      
+                                                                                
+* CLAVE DE MOVIMIENTO NO ENCONTRADA EN CLIENTE *                                
+ - NRO DE MOVIMIENTO: 01019                                                     
+ - TIPO DE CUENTA: 02                                                           
+ - NRO DE CUENTA: 00000019                                                      
+                                                                                
+* CLAVE DE MOVIMIENTO NO ENCONTRADA EN CLIENTE *                                
+ - NRO DE MOVIMIENTO: 01028                                                     
+ - TIPO DE CUENTA: 02                                                           
+ - NRO DE CUENTA: 00000028                                                      
+                                                                                
+* CLAVE DE MOVIMIENTO NO ENCONTRADA EN CLIENTE *                                
+ - NRO DE MOVIMIENTO: 01029                                                     
+ - TIPO DE CUENTA: 02                                                           
+ - NRO DE CUENTA: 00000029                                                      
+                                                                                
+**************************************************                              
+*                PROGRAMA PGMAPCAB               *                              
+**************************************************                              
+                                                                                
+**************************************************                              
+*                                                *                              
+* REG. DE CLIENTES LEIDOS:                 34    *                              
+*                                                *                              
+* REG. GRABADOS EN LA SALIDA:              34    *                              
+*                                                *                               
+**************************************************                                                                                                           
+*                                                *                              
+* REG. DE MOVIMIENTOS LEIDOS:              27    *                              
+*                                                *                              
+* REG. DE MOVIMIENTOS PROCESADOS:          21    *                              
+*                                                *                               
+**************************************************                              
+                                                                                
