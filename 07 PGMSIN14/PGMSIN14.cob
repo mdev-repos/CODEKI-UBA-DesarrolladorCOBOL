@@ -2,7 +2,7 @@
        IDENTIFICATION DIVISION. 
       ******************************************************************
                                                                         
-       PROGRAM-ID.    PGMCS14A. 
+       PROGRAM-ID.    PGMSIN14. 
                                                                         
       *    AUTHOR.        MATIAS N. MAZZITELLI | KC03CAB 
       *    DATE-WRITTEN.  MAYO-2025 
@@ -68,7 +68,7 @@
       *----------------------------------------------------------------*
                                                                         
        01 CT-CONSTANTES. 
-           02 CT-PROGRAMA                   PIC X(08)  VALUE 'PGMCS14A'.
+           02 CT-PROGRAMA                   PIC X(08)  VALUE 'PGMSIN14'.
            02 CT-OPEN                       PIC X(08)  VALUE 'OPEN    '.
            02 CT-READ                       PIC X(08)  VALUE 'READ    '.
            02 CT-WRITE                      PIC X(08)  VALUE 'WRITE   '.
@@ -373,7 +373,7 @@
                                                                         
            DISPLAY ' ' 
            DISPLAY '**************************************************' 
-           DISPLAY '*                PROGRAMA PGMCS14A               *' 
+           DISPLAY '*                PROGRAMA PGMSIN14               *' 
            DISPLAY '**************************************************' 
            DISPLAY ' '. 
            DISPLAY '**************************************************' 

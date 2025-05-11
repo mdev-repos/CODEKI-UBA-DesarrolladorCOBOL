@@ -2,7 +2,7 @@
        IDENTIFICATION DIVISION. 
       ******************************************************************
                                                                         
-       PROGRAM-ID.    CORTEC12. 
+       PROGRAM-ID.    PGMSIN12. 
                                                                         
       *    AUTHOR.        MATIAS N. MAZZITELLI | KC03CAB 
       *    DATE-WRITTEN.  ABRIL-2025 
@@ -57,7 +57,7 @@
       *----------------------------------------------------------------*
                                                                         
        01 CT-CONSTANTES. 
-           02 CT-PROGRAMA                   PIC X(08)  VALUE 'CORTEC12'.
+           02 CT-PROGRAMA                   PIC X(08)  VALUE 'PGMSIN12'.
            02 CT-OPEN                       PIC X(08)  VALUE 'OPEN    '.
            02 CT-READ                       PIC X(08)  VALUE 'READ    '.
            02 CT-CLOSE                      PIC X(08)  VALUE 'CLOSE   '.
@@ -406,7 +406,7 @@
                                                                         
            DISPLAY '                                       ' 
            DISPLAY '**************************************************' 
-           DISPLAY '*                 PROGRAMA CORTEC12              *' 
+           DISPLAY '*                 PROGRAMA PGMSIN12              *' 
            DISPLAY '**************************************************' 
            DISPLAY '                                       ' 
            DISPLAY '* CANTIDAD TOTAL DE REGISTROS LEIDOS: ' 
