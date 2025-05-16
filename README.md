@@ -30,10 +30,11 @@ Este repositorio documenta mi camino de aprendizaje con ejercicios prácticos de
 |01| <strong>PGMSUMA</strong> |Sintaxis Básica|Ejecución|NO|
 |02| <strong>PGM3CCAB</strong> |Lectura de Archivo|Archivo (Entrada)|QSAM (Entrada)|
 |03| <strong>PGM2CCAB</strong> |Lectura de Archivo <br> Corte (1) de Control|Archivo (Entrada) <br> SORT|QSAM (Entrada)|
-|04| <strong>CORTEC12</strong> |Lectura de Archivo <br> Corte (2) de Control|Archivo (Entrada) <br> SORT|QSAM (Entrada)|
+|04| <strong>PGMSIN12</strong> |Lectura de Archivo <br> Corte (2) de Control|Archivo (Entrada) <br> SORT|QSAM (Entrada)|
 |05| <strong>PGMCORT2</strong> |Lectura de Archivo <br> Corte (2) de Control|Archivo (Entrada) <br> SORT|QSAM (Entrada)|
 |06| <strong>PGMC1CAB</strong> |Lectura de Archivo <br> Validación de (1) Campo|Archivo (Entrada)|QSAM (Entrada)|
-|07| <strong>PGMCS14</strong> |Lectura de Archivo <br> Validación de (1) Campo <br> Escritura de Archivo|Archivo (Entrada) <br> Archivo (Salida)|QSAM (Entrada) <br> QSAM (Salida)|
+|07| <strong>PGMSIN14</strong> |Lectura de Archivo <br> Validación de (1) Campo <br> Escritura de Archivo|Archivo (Entrada) <br> Archivo (Salida)|QSAM (Entrada) <br> QSAM (Salida)|
 |08| <strong>PGMVACAB</strong> |Lectura de Archivo <br> Validacion de Campos <br> Escritura de Archivo|Archivo (Entrada) <br> Archivo (Salida)|QSAM (Entrada) <br> QSAM (Salida)|
 |09| <strong>PGMAPCAB</strong> |Lectura de Archivos (2) <br> Apareo de Archivos <br> Escritura de Archivo|Archivos (Entrada) <br> Archivo (Salida)|QSAM (Entradas) <br> QSAM (Salida)|
 |10| <strong>PGMTACAB</strong> |Lectura de Archivos (2) <br> Uso de Vectores (OCCURS)|Archivos (Entrada)|QSAM (Entradas)|
+|11| <strong>PGMSIN18</strong> |Lectura de Archivos (2) <br> Apareo de Archivos <br> Escritura de Archivo|Archivos (Entrada) <br> Archivo (Salida)|VSAM (Entrada) <br> QSAM (Entrada) <br> QSAM (Salida)|

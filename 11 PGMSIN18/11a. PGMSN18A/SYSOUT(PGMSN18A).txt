@@ -1,0 +1,44 @@
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *      
+ - TIPO DE DOCUMENTO: CC                           
+ - NRO DE DOCUMENTO: 00123333300                   
+                                                   
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *      
+ - TIPO DE DOCUMENTO: CI                           
+ - NRO DE DOCUMENTO: 00136555000                   
+                                                   
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *      
+ - TIPO DE DOCUMENTO: DU                           
+ - NRO DE DOCUMENTO: 00126789000                   
+                                                   
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *      
+ - TIPO DE DOCUMENTO: DU                           
+ - NRO DE DOCUMENTO: 00188889000                   
+                                                   
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *      
+ - TIPO DE DOCUMENTO: LD                           
+ - NRO DE DOCUMENTO: 00123449000                   
+                                                   
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *      
+ - TIPO DE DOCUMENTO: PA                           
+ - NRO DE DOCUMENTO: 90223373999                   
+                                                   
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *      
+ - TIPO DE DOCUMENTO: PE                           
+ - NRO DE DOCUMENTO: 00777789000                   
+                                                   
+************************************************** 
+*                PROGRAMA PGSIN18A               * 
+**************************************************                                    
+************************************************** 
+*                                                * 
+* REG. DE CLIENTES LEIDOS:                 33    * 
+*                                                *
+* REG. DE NOVEDAD LEIDOS:                  13    *
+*                                                * 
+**************************************************                                                  
+*                                                *
+* NOVEDADES ENCONTRADAS:                    6    *
+*                                                *
+* NOVEDADES NO ENCONTRADAS:                 7    *
+*                                                * 
+**************************************************

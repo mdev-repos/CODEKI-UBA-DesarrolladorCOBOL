@@ -1,0 +1,31 @@
+      **************************************                            
+      *         LAYOUT NOVEDAD CLIENTES    *                            
+      *                                    *                            
+      *  KC02788.ALU9999.NOVCLIEN          *                            
+      *                                    *                            
+      *         LARGO 50 BYTES             *                            
+      *                                    *                            
+      **************************************                            
+                                                                        
+       01  WS-REG-NOVCLIE.                                              
+      * VALIDOS  DU - PA - PE - CI         *                            
+           03  NOV-TIP-DOC         PIC X(02)    VALUE SPACES.           
+           03  NOV-NRO-DOC         PIC 9(11)    VALUE ZEROS.            
+      * VALIDOS  NRO SUCURSAL ENTRE 1 Y 99                              
+           03  NOV-SUC             PIC 9(02)    VALUE ZEROS.            
+      * VALIDOS  TIPO CUENTA 01 = CUENTAS CORRIENTES                    
+      *          TIPO CUENTA 02 = CAJA DE AHORROS                       
+      *          TIPO CUENTA 03 = PLAZO FIJO                            
+           03  NOV-CLI-TIPO        PIC 9(02)    VALUE ZEROS.            
+           03  NOV-CLI-NRO         PIC 9(03)    VALUE ZEROS.            
+           03  NOV-CLI-IMP         PIC S9(09)V99 COMP-3 VALUE ZEROS.    
+      * FORMATO NOV-CLI-FECHA (AAAAMMDD)                                
+      *      AAAA = AñO                                                 
+      *      MM = MES                                                   
+      *      DD  = DIA                                                  
+      * VALIDOS  ENTRE DIA 1 Y 31 DEL AñO (SEGúN MES)                   
+      *          CONSIDERAR 29 FEBRERO (BISIESTO)                       
+      *          AñO NUMéRICO, MAYOR A 2024                             
+           03  NOV-CLI-FECHA       PIC X(8)             VALUE ZEROS.    
+           03  FILLER              PIC X(16)    VALUE SPACES.           
+                                                                        

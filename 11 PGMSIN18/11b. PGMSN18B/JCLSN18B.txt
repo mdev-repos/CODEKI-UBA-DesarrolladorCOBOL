@@ -1,0 +1,15 @@
+//KC03CABE JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,       
+//             TIME=(,3)   ,RESTART=STEP4                              
+//*                                                                    
+//*************************************                                
+//*   MANEJO DE ARCHIVOS | PGSIN18B   *                                
+//*************************************                                
+//*                                                                    
+//STEP1    EXEC PGM=PGSIN18B                                           
+//STEPLIB  DD DSN=KC03CAB.CURSOS.PGMLIB,DISP=SHR                       
+//CLIENTES DD DSN=KC02788.ALU9999.CLIENT1.KSDS.VSAM,DISP=SHR           
+//NOVEDAD  DD DSN=KC02788.ALU9999.NOVCLIEN,DISP=SHR                    
+//SYSOUT   DD SYSOUT=*                                                 
+//SYSUDUMP DD SYSOUT=*                                                 
+//SYSIN    DD SYSOUT=*                                                 
+//*                                                                    

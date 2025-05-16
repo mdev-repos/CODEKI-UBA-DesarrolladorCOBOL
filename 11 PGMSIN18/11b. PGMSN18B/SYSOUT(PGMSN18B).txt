@@ -1,0 +1,68 @@
+* CLAVE DE NOVEDAD ENCONTRADA EN CLIENTE *          
+ - TIPO DE DOCUMENTO: DU                            
+ - NRO DE DOCUMENTO: 90323335999                    
+                                                    
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *       
+ - TIPO DE DOCUMENTO: DU                            
+ - NRO DE DOCUMENTO: 00126789000                    
+                                                    
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *       
+ - TIPO DE DOCUMENTO: PA                            
+ - NRO DE DOCUMENTO: 90223373999                    
+                                                    
+* CLAVE DE NOVEDAD ENCONTRADA EN CLIENTE *          
+ - TIPO DE DOCUMENTO: PA                            
+ - NRO DE DOCUMENTO: 12312312312                    
+                                                    
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *       
+ - TIPO DE DOCUMENTO: CI                            
+ - NRO DE DOCUMENTO: 00136555000                    
+                                                    
+* CLAVE DE NOVEDAD ENCONTRADA EN CLIENTE *          
+ - TIPO DE DOCUMENTO: PA                            
+ - NRO DE DOCUMENTO: 00083333999                    
+                                                    
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *       
+ - TIPO DE DOCUMENTO: CC                            
+ - NRO DE DOCUMENTO: 00123333300                    
+                                                    
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *       
+ - TIPO DE DOCUMENTO: LD                            
+ - NRO DE DOCUMENTO: 00123449000                    
+                                                    
+* CLAVE DE NOVEDAD ENCONTRADA EN CLIENTE *          
+ - TIPO DE DOCUMENTO: DU                            
+ - NRO DE DOCUMENTO: 09888000000                    
+                                                            
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *              
+ - TIPO DE DOCUMENTO: DU                                   
+ - NRO DE DOCUMENTO: 00188889000                           
+                                                           
+* CLAVE DE NOVEDAD ENCONTRADA EN CLIENTE *                 
+ - TIPO DE DOCUMENTO: DU                                   
+ - NRO DE DOCUMENTO: 00022000160                           
+                                                           
+* CLAVE DE NOVEDAD NO ENCONTRADA EN CLIENTE *              
+ - TIPO DE DOCUMENTO: PE                                   
+ - NRO DE DOCUMENTO: 00777789000                           
+                                                           
+* CLAVE DE NOVEDAD ENCONTRADA EN CLIENTE *                 
+ - TIPO DE DOCUMENTO: DU                                   
+ - NRO DE DOCUMENTO: 00023000190                           
+                                                           
+**************************************************         
+*                PROGRAMA PGSIN18B               *         
+**************************************************         
+                                                           
+**************************************************         
+*                                                *         
+* REG. DE NOVEDAD LEIDOS:                  13    *         
+*                                                *         
+**************************************************         
+*                                                *         
+* NOVEDADES ENCONTRADAS:                    6    *         
+*                                                *         
+* NOVEDADES NO ENCONTRADAS:                 7    *         
+*                                                *         
+**************************************************         
+                                                           
