@@ -1,0 +1,26 @@
+      **************************************                            
+      *         LAYOUT  ARCHIVO   CLIENTES *                            
+      *                                    *                            
+      *KC02788.ALU9999.CURSOS.CLIENTE      *                            
+      *                                    *                            
+      *         LARGO 50 BYTES             *                            
+      *                                    *                            
+      **************************************                            
+                                                                        
+       01  REG-CLIENTES.                                                
+      *VALORES POSIBLES CLIS-TIP-DOC = DU, PA, PE                       
+           03  CLIS-TIP-DOC        PIC X(02)    VALUE SPACES.           
+           03  CLIS-NRO-DOC        PIC 9(11)    VALUE ZEROS.            
+      *VALORES POSIBLES CLIS-SUC= 01, 02, 03,......10                   
+           03  CLIS-SUC            PIC 9(02)    VALUE ZEROS.            
+      *VALORES POSIBLES CLIS-TIPO= 01, 02, 03                           
+      * 01: CUENTAS CORRIENTES, 02: CAJA DE AHORROS; 03: PLAZO FIJO     
+           03  CLIS-TIPO           PIC 9(02)    VALUE ZEROS.            
+           03  CLIS-NRO            PIC 9(03)    VALUE ZEROS.            
+           03  CLIS-IMPORTE        PIC S9(09)V99 COMP-3 VALUE ZEROS.    
+      *VALORES POSIBLES CLIS-AAAAMMDD DEBE SER FECHA LóGICA             
+           03  CLIS-AAAAMMDD       PIC 9(08)            VALUE ZEROS.    
+      *VALOR EXTRAIDO DE PERSONAS                                       
+           03  CLIS-LOCALIDAD      PIC X(15)    VALUE SPACES.           
+           03  FILLER              PIC X(01)    VALUE SPACES.           
+                                                                        

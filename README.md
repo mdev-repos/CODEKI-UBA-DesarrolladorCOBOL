@@ -35,6 +35,7 @@ Este repositorio documenta mi camino de aprendizaje con ejercicios prácticos de
 |06| <strong>PGMC1CAB</strong> |Lectura de Archivo <br> Validación de (1) Campo|Archivo (Entrada)|QSAM (Entrada)|
 |07| <strong>PGMSIN14</strong> |Lectura de Archivo <br> Validación de (1) Campo <br> Escritura de Archivo|Archivo (Entrada) <br> Archivo (Salida)|QSAM (Entrada) <br> QSAM (Salida)|
 |08| <strong>PGMVACAB</strong> |Lectura de Archivo <br> Validacion de Campos <br> Escritura de Archivo|Archivo (Entrada) <br> Archivo (Salida)|QSAM (Entrada) <br> QSAM (Salida)|
-|09| <strong>PGMAPCAB</strong> |Lectura de Archivos (2) <br> Apareo de Archivos <br> Escritura de Archivo|Archivos (Entrada) <br> Archivo (Salida)|QSAM (Entradas) <br> QSAM (Salida)|
+|09| <strong>PGMAPCAB</strong> |Lectura de Archivos (2) <br> Apareo de Archivos <br> Escritura de Archivo|Archivos (Entrada) <br> SORT <br> Archivo (Salida)|QSAM (Entradas) <br> QSAM (Salida)|
 |10| <strong>PGMTACAB</strong> |Lectura de Archivos (2) <br> Uso de Vectores (OCCURS)|Archivos (Entrada)|QSAM (Entradas)|
-|11| <strong>PGMSIN18</strong> |Lectura de Archivos (2) <br> Apareo de Archivos <br> Escritura de Archivo|Archivos (Entrada) <br> Archivo (Salida)|VSAM (Entrada) <br> QSAM (Entrada) <br> QSAM (Salida)|
+|11| <strong>PGMSIN18</strong> |Lectura de Archivos (2) <br> Apareo de Archivos <br> Escritura de Archivo|Archivos (Entrada) <br> SORT <br> Archivo (Salida)|VSAM (Entrada) <br> QSAM (Entrada) <br> QSAM (Salida)|
+|12| <strong>PGMIMCAB</strong> |Lectura de Archivos (1) <br> Corte de Control <br> Escritura de Archivo FBA|Archivos (Entrada) <br> SORT <br> Archivo (Salida)|QSAM (Entrada) <br> FBA (Salida)|
