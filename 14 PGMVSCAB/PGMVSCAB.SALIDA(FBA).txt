@@ -1,0 +1,39 @@
+1          DETALLE DE CLIENTES           FECHA: 29/05/2025                      1                                                    
+ | TIPO |  DOCUMENTO  | SUC |  TIPO CUENTA  | NRO |         SALDO        |    FECHA   |     SEXO     | NOMBRE Y APELLIDO |           
+ |      |             |     |               |     |                      |            |              |                   |           
+ |  DU  | 00002220230 | 05  |  AHORRO       | 131 | $              8,00  | 30/12/2021 |   FEMENINO   |    GARCIA OLBANO  |           
+ |  DU  | 00003333999 | 02  |  CORRIENTE    | 123 | $            300,00- | 30/12/2021 |   MASCULINO  |    PETROPOLIS     |           
+ |  DU  | 00020000086 | 02  |  AHORRO       | 123 | $      4.000.000,00- | 25/12/2021 |   MASCULINO  |    PEREZ INSUNDIA |           
+ |  DU  | 00021000120 | 02  |  PLAZO FIJO   | 123 | $      4.000.000,00- | 30/12/2021 |   MASCULINO  |    ERASE          |           
+ |  DU  | 00021100127 | 01  |  CORRIENTE    | 124 | $         10.000,00- | 00/00/0000 |   OTRO       |    DISOSIA        |           
+ |  DU  | 00021110159 | 02  |  AHORRO       | 124 | $          2.000,00- | 30/12/2021 |   OTRO       |    ELSARME        |           
+ |  DU  | 00022000160 | 01  |  PLAZO FIJO   | 124 | $          2.000,00- | 30/12/2021 |   OTRO       |    MIGRO          |           
+ |  DU  | 00023000190 | 03  |  CORRIENTE    | 125 | $            400,00- | 30/12/2021 |   OTRO       |    DALEST         |           
+ |  DU  | 00033333999 | 03  |  AHORRO       | 125 | $      1.000.000,40  | 30/12/2021 |   MASCULINO  |    DATES          |           
+ |  DU  | 00034333999 | 03  |  PLAZO FIJO   | 125 | $      1.000.000,40  | 30/12/2021 |   FEMENINO   |    ENRIQUEZ       |           
+ |  DU  | 00040130917 | 04  |  CORRIENTE    | 126 | $      1.000.003,00  | 30/12/2021 |   MASCULINO  |    LOPEZ          |           
+ |  DU  | 00043333999 | 04  |  AHORRO       | 126 | $         40.000,00  | 30/12/2021 |   MASCULINO  |    GOLFO          |           
+ |  DU  | 00045333999 | 04  |  PLAZO FIJO   | 126 | $         40.000,00  | 30/12/2021 |   MASCULINO  |    ARENAS         |           
+ |  DU  | 00063333999 | 05  |  CORRIENTE    | 128 | $         10.000,00  | 30/12/2021 |   MASCULINO  |    GARCIA ROF     |           
+ |  DU  | 00063733999 | 05  |  PLAZO FIJO   | 128 | $         30.000,00  | 30/12/2021 |   MASCULINO  |    LOPEZ END      |           
+ |  DU  | 00066333999 | 05  |  AHORRO       | 128 | $         30.000,00  | 30/12/2021 |   MASCULINO  |    REDIENT        |           
+ |  DU  | 00073333999 | 04  |  AHORRO       | 129 | $         80.000,00  | 30/12/2021 |   MASCULINO  |    TUESMI         |           
+ |  DU  | 00083533999 | 05  |  DESCONOCIDO  | 130 | $         60.000,00  | 30/12/2021 |   MASCULINO  |    GOLFREDO       |           
+ |  DU  | 01123933999 | 05  |  CORRIENTE    | 132 | $            700,00  | 30/12/2021 |   MASCULINO  |    ANAFE          |           
+ |  DU  | 09523763999 | 05  |  CORRIENTE    | 134 | $        200.000,00  | 30/12/2021 |   MASCULINO  |    MIASO          |           
+ |  DU  | 09623393999 | 05  |  AHORRO       | 135 | $         10.000,00  | 30/12/2021 |   FEMENINO   |    SOFREDO        |           
+ |  DU  | 09724333999 | 05  |  PLAZO FIJO   | 136 | $         80.000,00  | 30/12/2021 |   FEMENINO   |    OJIME          |           
+ |  DU  | 09888000000 | 05  |  CORRIENTE    | 129 | $            400,00  | 30/12/2021 |   FEMENINO   |    OLBANO         |           
+ |  DU  | 48888888001 | 05  |  CORRIENTE    | 138 | $      5.000.000,00  | 30/12/2021 |   FEMENINO   |    BENITEZ        |           
+ |  DU  | 90073633999 | 03  |  AHORRO       | 139 | $         60.000,00  | 30/12/2021 |   FEMENINO   |    BERGANO        |           
+ |  DU  | 90093338999 | 03  |  AHORRO       | 141 | $      8.000.000,00  | 30/12/2021 |   FEMENINO   |    PERGAMO        |           
+ |  DU  | 90123333999 | 04  |  CORRIENTE    | 142 | $     40.080.000,00  | 15/30/2021 |   MASCULINO  |    READY          |           
+ |  DU  | 90323335999 | 04  |  CORRIENTE    | 144 | $         30.000,00  | 30/12/2021 |   OTRO       |    OFFIEN         |           
+ |  PA  | 00083333999 | 05  |  CORRIENTE    | 130 | $         90.000,00  | 30/12/2021 |   OTRO       |    DONT           |           
+ |  PA  | 09423343999 | 04  |  AHORRO       | 133 | $         40.000,00  | 30/12/2021 |   OTRO       |    RAMIREZ        |           
+ |  PA  | 12312312312 | 05  |  CORRIENTE    | 137 | $         40.000,00  | 30/12/2021 |   FEMENINO   |    REMO           |           
+ |  PE  | 80083373999 | 03  |  CORRIENTE    | 140 | $         70.000,00  | 30/12/2021 |   MASCULINO  |    VASENI         |           
+ |  PE  | 90223373999 | 04  |  AHORRO       | 143 | $         50.000,00  | 30/02/2021 |   MASCULINO  |    ELSENI         |           
+ ------------------------------------------------------------------------------------------------------------------------------------
+ FINAL LISTADO CLIENTES                                                                                                              
+ ------------------------------------------------------------------------------------------------------------------------------------

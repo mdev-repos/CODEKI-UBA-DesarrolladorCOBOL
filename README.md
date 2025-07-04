@@ -39,3 +39,6 @@ Este repositorio documenta mi camino de aprendizaje con ejercicios prácticos de
 |10| <strong>PGMTACAB</strong> |Lectura de Archivos (2) <br> Uso de Vectores (OCCURS)|Archivos (Entrada)|QSAM (Entradas)|
 |11| <strong>PGMSIN18</strong> |Lectura de Archivos (2) <br> Apareo de Archivos <br> Escritura de Archivo|Archivos (Entrada) <br> SORT <br> Archivo (Salida)|VSAM (Entrada) <br> QSAM (Entrada) <br> QSAM (Salida)|
 |12| <strong>PGMIMCAB</strong> |Lectura de Archivos (1) <br> Corte de Control <br> Escritura de Archivo FBA|Archivos (Entrada) <br> SORT <br> Archivo (Salida)|QSAM (Entrada) <br> FBA (Salida)|
+|13| <strong>PGMSIN21</strong> |Lectura de Archivos (1) <br> Corte de Control <br> Escritura de Archivo FBA|Archivos (Entrada) <br> SORT <br> Archivo (Salida)|QSAM (Entrada) <br> FBA (Salida)|
+|14| <strong>PGMVSCAB</strong> |Lectura de Archivos (1) <br> Escritura de Archivo FBA|Archivos (Entrada) <br> Archivo (Salida)|VSAM (Entrada) <br> FBA (Salida)|
+|15| <strong>PGMB2CAB</strong> |Creacion de Archivo VSAM (1) <br> Lectura de Archivo (1) <br> INSERT de datos en Tabla Db2|Archivo (Entrada) <br> SQL Embebido|VSAM (Entrada) <br> Tabla Db2 (Actualizada)|

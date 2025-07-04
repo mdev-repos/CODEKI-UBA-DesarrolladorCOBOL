@@ -1,0 +1,27 @@
+//KC03CABE JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,        
+//             TIME=(,5) ,RESTART=STEP5                                 
+//*                                                                     
+//*************************************                                 
+//*    IDCAMS | DELETE DE ARCHIVOS    *                                 
+//*************************************                                 
+//*                                                                     
+//STEP1    EXEC PGM=IDCAMS,COND=(8,LT)                                  
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+     DELETE   KC03CAB.PGMVSCAB.SALIDA                                   
+     SET MAXCC=0                                                        
+//*                                                                     
+//*************************************                                 
+//*        EJECUCION PGMVSCAB         *                                 
+//*************************************                                 
+//*                                                                     
+//STEP3    EXEC PGM=PGMVSCAB                                            
+//STEPLIB  DD DSN=KC03CAB.CURSOS.PGMLIB,DISP=SHR                        
+//CLIENTES DD DSN=KC02788.ALU9999.CLIENT1.KSDS.VSAM,DISP=SHR            
+//LISTADO  DD DSN=KC03CAB.PGMVSCAB.SALIDA,UNIT=SYSDA,                   
+//            DCB=(LRECL=133,BLKSIZE=0,RECFM=FBA),                      
+//         SPACE=(TRK,(1,1),RLSE),DISP=(NEW,CATLG,CATLG)                
+//SYSOUT   DD SYSOUT=*                                                  
+//SYSUDUMP DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+//*                                                                     

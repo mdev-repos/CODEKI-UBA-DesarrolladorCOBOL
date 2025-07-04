@@ -1,0 +1,61 @@
+//******** JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,        
+//             TIME=(,5)  ,RESTART=DEFAIX                               
+//********************************                                      
+//* NOTA:                                                               
+//* COPIAR  ARCHIVO *******.ALU9999.NOVECLI COMO                        
+//*                 *******.NOVECLI                                     
+//* CAMBIAR  XXX  POR LAS úLTIMAS 3 LETRAS/NúMEROS DEL USERID           
+//*                                                                     
+//********************************                                      
+//*          EJEMPLO             *                                      
+//*   IDCAMS DELETE CLUSTER      *                                      
+//********************************                                      
+//DELCLUS  EXEC PGM=IDCAMS,COND=(8,LT)                                  
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+     DELETE   *******.NOVECLI.KSDS.VSAM CLUSTER PURGE                   
+     DELETE   *******.NOVECLI.CL                                        
+//*                                                                     
+//********************************                                      
+//*       EJEMPLO KSDS           *                                      
+//*   IDCAMS DEFINE CLUSTER      *                                      
+//********************************                                      
+//DEFKSDS  EXEC PGM=IDCAMS,COND=(8,LT)                                  
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+  DEFINE CLUSTER(NAME(*******.NOVECLI.KSDS.VSAM) -                      
+         CONTROLINTERVALSIZE(4096) -                                    
+         VOLUMES(KCTR57) -                                              
+         CYL(1 1) -                                                     
+         KEYS(17 0) -                                                   
+         RECORDSIZE(244 244) -                                          
+         FREESPACE(10 5) -                                              
+         SHR(2 3)) -                                                    
+  DATA   (NAME(*******.NOVECLI.KSDS.VSAM.DATA)) -                       
+  INDEX  (NAME(*******.NOVECLI.KSDS.VSAM.INDX))                         
+//*                                                                     
+//*********************************                                     
+//* EJEMPLO1 ORDENA NOVECLI       *                                     
+//*********************************                                     
+//SORT1       EXEC PGM=SORT,COND=EVEN                                   
+//SYSOUT    DD SYSOUT=*                                                 
+//SORTIN    DD DSN=*******.NOVECLI,DISP=SHR                             
+//SORTOUT   DD DSN=*******.NOVECLI.CL,                                  
+//            DCB=(LRECL=244,BLKSIZE=0,RECFM=FB),                       
+//            SPACE=(TRK,(1,1),RLSE),DISP=(,CATLG)                      
+//SYSIN     DD *                                                        
+ SORT FORMAT=BI,FIELDS=(1,17,A)                                         
+//*                                                                     
+//********************************                                      
+//*        EJEMPLO REPRO         *                                      
+//* IDCAMS PARA CARGAR KSDS VSAM *                                      
+//* NOVECLI = SALIDA PROGRAMA    *                                      
+//********************************                                      
+//DEFREPRO EXEC PGM=IDCAMS,REGION=0M                                    
+//NOVECLI  DD DSN=*******.NOVECLI.CL,DISP=SHR                           
+//SALIDA   DD DSN=*******.NOVECLI.KSDS.VSAM,DISP=SHR                    
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+  REPRO INFILE(NOVECLI) OUTFILE(SALIDA) REPLACE                         
+//*                                                                     
+//                                                                      

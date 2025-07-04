@@ -1,0 +1,29 @@
+      **************************************                            
+      *         LAYOUT MAESTRO CLIENTES         *                       
+      *                                         *                       
+      *KC02788.ALU9999.CURSOS.CLIENT1.KSDS.VSAM *                       
+      *                                         *                       
+      *         LARGO 50 BYTES                  *                       
+      *        VSAM KSDS KEY (1,13)             *                       
+      *                                         *                       
+      *        ALT KEY NRO-CLI  (18,3)          *                       
+      *******************************************                       
+                                                                        
+       01  REG-CLIENTE.                                                 
+      *TIPO DOCUMENTO: DU, PA; PE                                       
+           03  CLI-TIP-DOC        PIC X(02)    VALUE SPACES.            
+           03  CLI-NRO-DOC        PIC 9(11)    VALUE ZEROS.             
+      *NRO SUCURSAL                                                     
+           03  CLI-NRO-SUC        PIC 9(02)    VALUE ZEROS.             
+      *TIPO CUENTA CC; CA; PF                                           
+           03  CLI-TIP-CUE        PIC XX       VALUE SPACES.            
+           03  CLI-NRO            PIC 9(03)    VALUE ZEROS.             
+      *SALDO DE LA CUENTA                                               
+           03  CLI-SALDO          PIC S9(09)V99 COMP-3 VALUE ZEROS.     
+      *FORMATO DE LA FECHA AAAAMMDD                                     
+           03  CLI-AAAAMMDD       PIC 9(08)            VALUE ZEROS.     
+      *SEXO F; M; O                                                     
+           03  CLI-SEXO           PIC X        VALUE SPACES.            
+      *NOMBRE Y APELLIDO                                                
+           03  CLI-NOMAPE         PIC X(15)    VALUE SPACES.            
+                                                                        

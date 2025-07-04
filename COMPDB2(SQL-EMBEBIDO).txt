@@ -1,0 +1,12 @@
+//******** JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID         
+//***********************************************                       
+//*   COMPILADOR COBOL/DB2 BATCH                *                       
+//*   XX =    DIGITAR SU USERID ALUMNO          *                       
+//*   GOPGM DIGITAR SU PROGRAM-ID               *                       
+//***********************************************                       
+//JCLLIB JCLLIB ORDER=*******.CURSOS.PROCLIB                            
+//STEP1  EXEC COMPDB2,                                                  
+//       ALUMLIB=*******.CURSOS,                                        
+//       GOPGM=PGMB2CAB                                                 
+//PC.SYSLIB  DD DSN=*******.CURSOS.DCLGEN,DISP=SHR                      
+//COB.SYSLIB DD DSN=*******.ALU9999.COPYLIB,DISP=SHR                    
