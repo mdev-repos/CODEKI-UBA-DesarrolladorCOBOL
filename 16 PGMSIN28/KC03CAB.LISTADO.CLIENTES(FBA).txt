@@ -1,0 +1,20 @@
+1          LISTADO DE CLIENTES CON SALDO MAYOR A CERO - FECHA: 05-07-2025                                                            
+ | TIPO DE CUENTA | NRO. DE CUENTA | NRO. DE SUC. | NRO. DE CLIENTE |       NOMBRE Y APELLIDO        |    SALDO    | FECHA DE ACT. | 
+ |                |                |              |                 |                                |             |               | 
+ |       01       |       123      |       1      |        10       | AMASO FLORES JUANA INES        | $   135,40  |   2025-06-01  | 
+ |       02       |       111      |       1      |        11       | COMOMIRO ESTEBAN JOSE          | $   115,00  |   2025-06-01  | 
+ |       01       |       133      |       2      |        13       | PERENCIO CARMEN                | $   100,00  |   2025-06-01  | 
+ |       01       |       444      |       3      |        15       | PAZ JUAN PEDRO                 | $   200,50  |   2025-06-01  | 
+ |       01       |       666      |       3      |        16       | PERA FEDERICO                  | $   300,50  |   2025-06-01  | 
+ |       01       |       345      |       4      |        17       | PACIENCIA NOEMI                | $   300,50  |   2025-06-01  | 
+ |       01       |       678      |       4      |        18       | PRIETO JOSE                    | $   231,50  |   2025-06-01  | 
+1          LISTADO DE CLIENTES CON SALDO MAYOR A CERO - FECHA: 05-07-2025                                                            
+ | TIPO DE CUENTA | NRO. DE CUENTA | NRO. DE SUC. | NRO. DE CLIENTE |       NOMBRE Y APELLIDO        |    SALDO    | FECHA DE ACT. | 
+ |                |                |              |                 |                                |             |               | 
+ |       01       |       222      |       5      |        20       | PEREZ MARCELA                  | $   444,50  |   2025-06-01  | 
+ |       01       |       899      |       5      |        21       | PRUDENCIO MARIA JOSE           | $   234,50  |   2025-06-01  | 
+ |       01       |       778      |       6      |        22       | EQUINOCCIO JACINTO             | $   111,50  |   2025-06-01  | 
+ |       01       |       777      |       7      |        23       | PEREYRA LUCENA MARTIN          | $   121,50  |   2025-06-01  | 
+ ------------------------------------------------------------------------------------------------------------------------------------
+ FINAL LISTADO CLIENTES                                                                                                              
+ ------------------------------------------------------------------------------------------------------------------------------------

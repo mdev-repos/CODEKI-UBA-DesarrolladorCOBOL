@@ -1,0 +1,23 @@
+ACCESO DB2 OK                                      
+ACCESO DB2 OK                                      
+ACCESO DB2 OK                                      
+ACCESO DB2 OK                                      
+ACCESO DB2 OK                                      
+ACCESO DB2 OK                                      
+ACCESO DB2 OK                                      
+ACCESO DB2 OK                                      
+ACCESO DB2 OK                                      
+ACCESO DB2 OK                                      
+ACCESO DB2 OK                                      
+                                                   
+************************************************** 
+*                PROGRAMA PGMSIN28               * 
+************************************************** 
+                                                   
+************************************************** 
+*                                                * 
+* REG. DE CLIENTES LEIDOS:                 11    *
+*                                                *  
+* REG. DE CLIENTES IMPRESOS:               11    *
+*                                                *  
+************************************************** 

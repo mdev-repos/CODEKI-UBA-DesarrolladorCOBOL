@@ -7,12 +7,11 @@
 <div style="text-align:justify">
 
 ¡Hola! 👋 Soy **Matías**, futuro desarrollador Mainframe especializado en **COBOL**, **CICS** y **DB2**.  
-Este repositorio documenta mi camino de aprendizaje con ejercicios prácticos del curso **Desarrollador COBOL** brindado por los expertos de **CODEKI | UBA Económicas**.  
+Este repositorio documenta mi camino de aprendizaje con ejercicios prácticos del curso **Desarrollador COBOL** brindado por 
+los expertos de **CODEKI | UBA Económicas**.  
 
-**¿Qué encontrarás aquí?**  
-- Soluciones a problemas **reales del sector bancario** (simulados en el curso).  
-- Código **COBOL** bien documentado, **JCL**s funcionales y ejemplos con archivos **QSAM**.  
-- Mi evolución: desde programas básicos hasta sistemas con validaciones, apareos y cortes de control.  
+**Evolución del aprendizaje:**  
+1️⃣ **Fundamentos COBOL** → 2️⃣ **Manejo de archivos** → 3️⃣ **Técnicas avanzadas** → 4️⃣ **Integración con DB2**
 
 <div style="text-align:center">
 
@@ -20,25 +19,57 @@ Este repositorio documenta mi camino de aprendizaje con ejercicios prácticos de
 
 <hr>
 
-### Resumen de las soluciones desarrolladas
+### 📌 Etapa 1: Fundamentos COBOL (Ejercicios 1-14)
 
 </div>
 
+| #  | Programa       | Técnicas Aplicadas                 | Tecnologías      | Conceptos Adicionales          |
+|----|----------------|-------------------------------------|------------------|--------------------------------|
+| 01 | PGMSUMA        | Procesamiento básico               | COBOL            | -                              |
+| 02 | PGM3CCAB       | Lectura de archivos                | COBOL, JCL       | QSAM                           |
+| 03 | PGM2CCAB       | Corte de control (1 nivel)         | COBOL, JCL       | QSAM, SORT                     |
+| 04 | PGMSIN12       | Corte de control (2 niveles)       | COBOL, JCL       | QSAM, SORT                     |
+| 05 | PGMCORT2       | Corte de control complejo          | COBOL, JCL       | QSAM, SORT                     |
+| 06 | PGMC1CAB       | Validación de campos               | COBOL, JCL       | QSAM                           |
+| 07 | PGMSIN14       | Validación + Escritura archivos    | COBOL, JCL       | QSAM                           |
+| 08 | PGMVACAB       | Validación múltiple de campos      | COBOL, JCL       | QSAM                           |
+| 09 | PGMAPCAB       | Apareo de archivos                 | COBOL, JCL       | QSAM, SORT                     |
+| 10 | PGMTACAB       | Manejo de tablas (OCCURS)          | COBOL, JCL       | QSAM                           |
+| 11 | PGMSIN18       | Apareo con VSAM                    | COBOL, JCL       | VSAM, QSAM, SORT               |
+| 12 | PGMIMCAB       | Generación de reportes FBA         | COBOL, JCL       | QSAM, FBA                      |
+| 13 | PGMSIN21       | Reportes con cortes de control     | COBOL, JCL       | QSAM, FBA, SORT                |
+| 14 | PGMVSCAB       | Procesamiento VSAM + FBA           | COBOL, JCL       | VSAM, FBA                      |
 
-| <em>n</em>| <em>Nombre</em>| <em>COBOL</em>| <em>JCL</em>| <em>Archivos</em>|
-| -----| -------------      |:-------------:|:-------------:|:-------------:|
-|01| <strong>PGMSUMA</strong> |Sintaxis Básica|Ejecución|NO|
-|02| <strong>PGM3CCAB</strong> |Lectura de Archivo|Archivo (Entrada)|QSAM (Entrada)|
-|03| <strong>PGM2CCAB</strong> |Lectura de Archivo <br> Corte (1) de Control|Archivo (Entrada) <br> SORT|QSAM (Entrada)|
-|04| <strong>PGMSIN12</strong> |Lectura de Archivo <br> Corte (2) de Control|Archivo (Entrada) <br> SORT|QSAM (Entrada)|
-|05| <strong>PGMCORT2</strong> |Lectura de Archivo <br> Corte (2) de Control|Archivo (Entrada) <br> SORT|QSAM (Entrada)|
-|06| <strong>PGMC1CAB</strong> |Lectura de Archivo <br> Validación de (1) Campo|Archivo (Entrada)|QSAM (Entrada)|
-|07| <strong>PGMSIN14</strong> |Lectura de Archivo <br> Validación de (1) Campo <br> Escritura de Archivo|Archivo (Entrada) <br> Archivo (Salida)|QSAM (Entrada) <br> QSAM (Salida)|
-|08| <strong>PGMVACAB</strong> |Lectura de Archivo <br> Validacion de Campos <br> Escritura de Archivo|Archivo (Entrada) <br> Archivo (Salida)|QSAM (Entrada) <br> QSAM (Salida)|
-|09| <strong>PGMAPCAB</strong> |Lectura de Archivos (2) <br> Apareo de Archivos <br> Escritura de Archivo|Archivos (Entrada) <br> SORT <br> Archivo (Salida)|QSAM (Entradas) <br> QSAM (Salida)|
-|10| <strong>PGMTACAB</strong> |Lectura de Archivos (2) <br> Uso de Vectores (OCCURS)|Archivos (Entrada)|QSAM (Entradas)|
-|11| <strong>PGMSIN18</strong> |Lectura de Archivos (2) <br> Apareo de Archivos <br> Escritura de Archivo|Archivos (Entrada) <br> SORT <br> Archivo (Salida)|VSAM (Entrada) <br> QSAM (Entrada) <br> QSAM (Salida)|
-|12| <strong>PGMIMCAB</strong> |Lectura de Archivos (1) <br> Corte de Control <br> Escritura de Archivo FBA|Archivos (Entrada) <br> SORT <br> Archivo (Salida)|QSAM (Entrada) <br> FBA (Salida)|
-|13| <strong>PGMSIN21</strong> |Lectura de Archivos (1) <br> Corte de Control <br> Escritura de Archivo FBA|Archivos (Entrada) <br> SORT <br> Archivo (Salida)|QSAM (Entrada) <br> FBA (Salida)|
-|14| <strong>PGMVSCAB</strong> |Lectura de Archivos (1) <br> Escritura de Archivo FBA|Archivos (Entrada) <br> Archivo (Salida)|VSAM (Entrada) <br> FBA (Salida)|
-|15| <strong>PGMB2CAB</strong> |Creacion de Archivo VSAM (1) <br> Lectura de Archivo (1) <br> INSERT de datos en Tabla Db2|Archivo (Entrada) <br> SQL Embebido|VSAM (Entrada) <br> Tabla Db2 (Actualizada)|
+<div style="text-align:center">
+
+<hr>
+
+### 🛢️ Etapa 2: Integración con DB2 (Ejercicios 15-16)
+
+</div>
+
+| #  | Programa       | Técnicas Aplicadas                 | Tecnologías          | Conceptos Adicionales          |
+|----|----------------|-------------------------------------|----------------------|--------------------------------|
+| 15 | PGMB2CAB       | INSERTS a tablas DB2                | COBOL, JCL, SQL      | VSAM, DB2                      |
+| 16 | PGMSIN28       | Consultas con CURSOR + Reportes FBA | COBOL, JCL, SQL      | DB2, FBA, CURSOR               |
+
+
+<br>
+
+**Leyenda:**  
+🔷 **Tecnologías Principales**:  
+- **COBOL**: COmmon Business-Oriented Language (Lenguaje de programación)  
+- **JCL**: Job Control Language  (Lenguaje de control de trabajo en Mainframe)
+- **SQL**: Structured Query Language (Lenguaje de Base de Datos)
+- **DB2**: DBMS propio de IBM (Mainframe)  
+- **CICS**: Customer Information Control System (Gestor transaccional IBM - Próximamente!!)  
+
+🔸 **Conceptos Adicionales**:  
+- **QSAM**: Archivos secuenciales  
+- **VSAM**: Archivos indexados  
+- **FBA**: Formato de impresión  
+- **SORT**: Ordenamiento de datos  
+- **CORTE**: Control de rupturas  
+- **CURSOR**: Manejo de resultados SQL  
+
+</div>

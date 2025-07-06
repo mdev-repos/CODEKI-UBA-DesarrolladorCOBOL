@@ -1,0 +1,36 @@
+//KC03CABX JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID         
+//JOBLIB  DD  DSN=DSND10.SDSNLOAD,DISP=SHR                              
+//        DD DSN=KC03CAB.CURSOS.PGMLIB,DISP=SHR                         
+//***************************************************************       
+//* PASO OPCIONAL: BORRADO DE ARCHIVOS ( PARA ALGUNOS PGM )     *       
+//***************************************************************       
+//*                                                                     
+//STEP1    EXEC PGM=IDCAMS,COND=(8,LT)                                  
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+     DELETE   KC03CAB.LISTADO.CLIENTES                                  
+     SET MAXCC=0                                                        
+//*                                                                     
+//*                                                                     
+//***************************************************************       
+//*      EJECUTAR PROGRAMA COBOL CON SQL EMBEBIDO               *       
+//***************************************************************       
+//*                                                                     
+//STEP2    EXEC PGM=IKJEFT01,DYNAMNBR=20,COND=(4,LT)                    
+//SYSTSPRT DD SYSOUT=*                                                  
+//*NOVEDAD  DD DSN=KC03CAB.NOVECLI.KSDS.VSAM,DISP=SHR                   
+//*DDSALID  DD DSN=KC03CAB.DB2.SALIDA,DISP=SHR                          
+//CLIENTES DD DSN=KC03CAB.LISTADO.CLIENTES,UNIT=SYSDA,                  
+//            DCB=(LRECL=133,BLKSIZE=0,RECFM=FBA),                      
+//            SPACE=(TRK,(1,1),RLSE),DISP=(NEW,CATLG,CATLG)             
+//SYSOUT   DD SYSOUT=*                                                  
+//SYSTSIN  DD *                                                         
+  DSN SYSTEM(DBDG)                                                      
+  RUN  PROGRAM(PGMSIN28) PLAN(CURSOCAB) +                               
+      LIB('KC03CAB.CURSOS.PGMLIB')                                      
+  END                                                                   
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSUDUMP DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+//*                                                                     
+//                                                                      

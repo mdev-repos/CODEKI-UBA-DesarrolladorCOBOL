@@ -1,0 +1,44 @@
+      ******************************************************************
+      * DCLGEN TABLE(KC02787.TBCURCLI)                                 *
+      *        LIBRARY(KC03CAB.CURSOS.DCLGEN(TBCURCLI))                *
+      *        ACTION(REPLACE)                                         *
+      *        LANGUAGE(COBOL)                                         *
+      *        NAMES(WS-CLI-)                                          *
+      *        QUOTE                                                   *
+      *        LABEL(YES)                                              *
+      *        COLSUFFIX(YES)                                          *
+      * ... IS THE DCLGEN COMMAND THAT MADE THE FOLLOWING STATEMENTS   *
+      ******************************************************************
+           EXEC SQL DECLARE KC02787.TBCURCLI TABLE                      
+           ( TIPDOC                         CHAR(2) NOT NULL,           
+             NRODOC                         DECIMAL(11, 0) NOT NULL,    
+             NROCLI                         DECIMAL(3, 0) NOT NULL,     
+             NOMAPE                         CHAR(30) NOT NULL,          
+             FECNAC                         DATE NOT NULL,              
+             SEXO                           CHAR(1) NOT NULL            
+           ) END-EXEC.                                                  
+      ******************************************************************
+      * COBOL DECLARATION FOR TABLE KC02787.TBCURCLI                   *
+      ******************************************************************
+       01  DCLTBCURCLI.                                                 
+      *    *************************************************************
+      *                       TIPDOC                                    
+           10 WS-CLI-TIPDOC        PIC X(2).                            
+      *    *************************************************************
+      *                       NRODOC                                    
+           10 WS-CLI-NRODOC        PIC S9(11)V USAGE COMP-3.            
+      *    *************************************************************
+      *                       NROCLI                                    
+           10 WS-CLI-NROCLI        PIC S9(3)V USAGE COMP-3.             
+      *    *************************************************************
+      *                       NOMAPE                                    
+           10 WS-CLI-NOMAPE        PIC X(30).                           
+      *    *************************************************************
+      *                       FECNAC                                    
+           10 WS-CLI-FECNAC        PIC X(10).                           
+      *    *************************************************************
+      *                       SEXO                                      
+           10 WS-CLI-SEXO          PIC X(1).                            
+      ******************************************************************
+      * THE NUMBER OF COLUMNS DESCRIBED BY THIS DECLARATION IS 6       *
+      ******************************************************************
