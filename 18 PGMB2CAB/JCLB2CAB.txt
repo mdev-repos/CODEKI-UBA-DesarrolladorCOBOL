@@ -1,0 +1,20 @@
+//KC03CABX JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID         
+//JOBLIB  DD  DSN=DSND10.SDSNLOAD,DISP=SHR                              
+//        DD DSN=KC03CAB.CURSOS.PGMLIB,DISP=SHR                         
+//***************************************************************       
+//*      EJECUTAR PROGRAMA COBOL CON SQL EMBEBIDO               *       
+//***************************************************************       
+//*                                                                     
+//STEP2    EXEC PGM=IKJEFT01,DYNAMNBR=20,COND=(4,LT)                    
+//SYSTSPRT DD SYSOUT=*                                                  
+//SYSOUT   DD SYSOUT=*                                                  
+//SYSTSIN  DD *                                                         
+  DSN SYSTEM(DBDG)                                                      
+  RUN  PROGRAM(PGMB2CAB) PLAN(CURSOCAB) +                               
+      LIB('KC03CAB.CURSOS.PGMLIB')                                      
+  END                                                                   
+//SYSPRINT DD SYSOUT=*                                                  
+//SYSUDUMP DD SYSOUT=*                                                  
+//SYSIN    DD *                                                         
+//*                                                                     
+//                                                                      

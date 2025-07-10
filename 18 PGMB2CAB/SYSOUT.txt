@@ -1,0 +1,37 @@
+SUCURSAL   1                                                                    
+  -- CANTIDAD DE CUENTAS:   2                                                   
+                                                                                
+SUCURSAL   2                                                                    
+  -- CANTIDAD DE CUENTAS:   1                                                   
+                                                                                
+SUCURSAL   3                                                                    
+  -- CANTIDAD DE CUENTAS:   2                                                   
+                                                                                
+SUCURSAL   4                                                                    
+  -- CANTIDAD DE CUENTAS:   2                                                   
+                                                                                
+SUCURSAL   5                                                                    
+  -- CANTIDAD DE CUENTAS:   2                                                   
+                                                                                
+SUCURSAL   6                                                                    
+  -- CANTIDAD DE CUENTAS:   1                                                   
+                                                                                
+SUCURSAL   7                                                                    
+  -- CANTIDAD DE CUENTAS:   1                                                   
+                                                                                
+                                                                                
+-----------------------------                                                   
+         TOTAL DE CUENTAS  11                                                   
+-----------------------------                                                   
+                                                                                
+                                                                                
+**************************************************                              
+*                PROGRAMA PGMB2CAB               *                              
+**************************************************                              
+                                                                                
+**************************************************                              
+*                                                *                              
+* CANTIDAD DE REGISTROS LEIDOS:            11    *                              
+*                                                *                              
+**************************************************                              
+                                                                                

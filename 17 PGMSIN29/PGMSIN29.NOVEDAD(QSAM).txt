@@ -1,0 +1,10 @@
+AL          DU           00000000112         002 MAZZITELLI ENRIQUE             19891002      M                           
+AL          DU           00000000335         004 MAZZITLEWIS JULIAN             19780613      M                           
+AL          PE           00000000113         003 MAZZITURRI FABIAN              19901216      M                           
+AL          PA           00000000438         006 MAZZITLANTICO EVA              19981119      F                           
+CL          DU           00000000111         010 AMASO FLORES JUANA INES        19600415      F                           
+AL          DU           00000000135         004 DOS SANTOS ENRIQUETA           19871109      F                           
+CN          DU           00000000345         012 MAZZITERCO JULIANA             19760531      F                           
+CX          PE           00000000456         021 PRUDENCIO MARIA JOSE           19891127      O                           
+CX          DU           00000000134         888 MAZZITIPICO NOEXISTE           19801209      F                           
+AL          PA           00000000235         777 CANTILO FABIANA                19771219      F                           

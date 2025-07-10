@@ -2,7 +2,7 @@
        IDENTIFICATION DIVISION.                                         
       ******************************************************************
                                                                         
-       PROGRAM-ID.    PGMB2CAB.                                         
+       PROGRAM-ID.    PGMSIN27.                                         
                                                                         
       *    AUTHOR.        MATIAS N. MAZZITELLI | KC03CAB                
       *    DATE-WRITTEN.  2025-JULIO-04                                 
@@ -70,7 +70,7 @@
       *----------------------------------------------------------------*
                                                                         
        01 CT-CONSTANTES.                                                
-           02 CT-PROGRAMA                   PIC X(08)  VALUE 'PGMB2CAB'.
+           02 CT-PROGRAMA                   PIC X(08)  VALUE 'PGMSIN27'.
            02 CT-OPEN                       PIC X(08)  VALUE 'OPEN    '.
            02 CT-READ                       PIC X(08)  VALUE 'READ    '.
            02 CT-WRITE                      PIC X(08)  VALUE 'WRITE   '.

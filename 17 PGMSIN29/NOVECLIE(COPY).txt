@@ -1,0 +1,37 @@
+      **************************************                            
+      *         LAYOUT NOVEDAD CLIENTES    *                            
+      *                                    *                            
+      *      ALUXXXX.CURSOS.NOVECLIE       *                            
+      *      DONDE XXXX = NRO ALUMNO       *                            
+      *                                    *                            
+      *         LARGO 80 BYTES             *                            
+      *                                    *                            
+      **************************************                            
+                                                                        
+       01  WS-REG-NOVECLI.                                              
+      **************************************                            
+      * TIP-NOV = AL  ALTA CLIENTE                                      
+      * TIP-NOV = CL  MODIF. NRO CLIENTE                                
+      * TIP-NOV = CN  MODIF. NOMBRE DEL CLIENTE                         
+      * TIP-NOV = CX  MODIF. SEXO                                       
+      **************************************                            
+           03  NOV-TIP-NOV         PIC X(02)    VALUE SPACES.           
+      * TIP-DOC = DU; PA; PE                                            
+           03  NOV-TIP-DOC         PIC X(02)    VALUE SPACES.           
+      * NRO-DOC = NUMERICO                                              
+           03  NOV-NRO-DOC         PIC 9(11)    VALUE ZEROS.            
+      * CLI-NRO = NUMERICO                                              
+           03  NOV-CLI-NRO         PIC 9(03)    VALUE ZEROS.            
+      * CLI-NOMBRE NOT EQUAL SPACES -                                   
+      **************************************                            
+      * CONDICION PARA GENERAR EL DATO DE PRUEBA:                       
+      * LAS 6 PRIMERAS LETRAS DE NOV-CLI-NOMBRE SERáN LAS 6 PRAS LETRAS 
+      * DEL APELLIDO DEL PROGRAMADOR QUE ARMA LOS DATOS DE PRUEBA       
+      **************************************                            
+           03  NOV-CLI-NOMBRE      PIC X(30)    VALUE SPACES.           
+      * CLI-FECNAC FECHA LÓGICA (AAAAMMDD)                              
+           03  NOV-CLI-FENAC       PIC X(08)    VALUE SPACES.           
+      * CLI-SEXO = F; M; O                                              
+           03  NOV-CLI-SEXO        PIC X        VALUE SPACES.           
+           03  FILLER              PIC X(23)    VALUE SPACES.           
+                                                                        

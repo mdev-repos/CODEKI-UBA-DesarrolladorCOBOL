@@ -50,8 +50,11 @@ los expertos de **CODEKI | UBA Económicas**.
 
 | #  | Programa       | Técnicas Aplicadas                 | Tecnologías          | Conceptos Adicionales          |
 |----|----------------|-------------------------------------|----------------------|--------------------------------|
-| 15 | PGMB2CAB       | INSERTS a tablas DB2                | COBOL, JCL, SQL      | VSAM, DB2                      |
+| 15 | PGMSIN27       | INSERTS a tablas DB2                | COBOL, JCL, SQL      | VSAM, DB2                      |
 | 16 | PGMSIN28       | Consultas con CURSOR + Reportes FBA | COBOL, JCL, SQL      | DB2, FBA, CURSOR               |
+| 17 | PGMSIN29       | Validaciones + INSERT & UPDATE a tablas DB2 | COBOL, JCL, SQL      | QSAM, DB2          |
+| 18 | PGMB2CAB       | Consultas con CURSOR + Corte de control | COBOL, JCL, SQL      | DB2, CURSOR, ORDER BY |
+
 
 
 <br>
