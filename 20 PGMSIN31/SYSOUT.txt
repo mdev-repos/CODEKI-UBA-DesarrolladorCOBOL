@@ -1,0 +1,113 @@
+****************************************                                        
+  - TIPO DE CUENTA: 01                                                          
+  - NRO. DE CUENTA:  123                                                        
+  - NRO. DE CLIENTE:   10                                                       
+  - NOMBRE: AMASO FLORES JUANA INES                                             
+     * SALDO ANTERIOR:   $1.404,00-                                             
+     + MOVIMIENTO:     $110,00-                                                 
+  - SALDO ACTUALIZADO:   $1.514,00-                                             
+****************************************                                        
+****************************************                                        
+* CUENTA SIN NOVEDAD                                                            
+  - TIPO DE CUENTA: 02                                                          
+  - NRO. SUCURSAL: 01                                                           
+  - NRO. DE CLIENTE: 011                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 01                                                          
+  - NRO. SUCURSAL: 02                                                           
+  - NRO. DE CLIENTE: 013                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 01                                                          
+  - NRO. SUCURSAL: 03                                                           
+  - NRO. DE CLIENTE: 013                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 01                                                          
+  - NRO. SUCURSAL: 03                                                           
+  - NRO. DE CLIENTE: 015                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 01                                                          
+  - NRO. SUCURSAL: 03                                                           
+  - NRO. DE CLIENTE: 016                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 01                                                          
+  - NRO. SUCURSAL: 07                                                           
+  - NRO. DE CLIENTE: 023                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 02                                                          
+  - NRO. SUCURSAL: 03                                                           
+  - NRO. DE CLIENTE: 116                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 02                                                          
+  - NRO. SUCURSAL: 07                                                           
+  - NRO. DE CLIENTE: 123                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 02                                                          
+  - NRO. SUCURSAL: 08                                                           
+  - NRO. DE CLIENTE: 025                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 02                                                          
+  - NRO. SUCURSAL: 08                                                           
+  - NRO. DE CLIENTE: 125                                                        
+****************************************                                        
+****************************************                                        
+* CUENTA SIN NOVEDAD                                                            
+  - TIPO DE CUENTA: 02                                                          
+  - NRO. SUCURSAL: 01                                                           
+  - NRO. DE CLIENTE: 124                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 03                                                          
+  - NRO. SUCURSAL: 01                                                           
+  - NRO. DE CLIENTE: 110                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 03                                                          
+  - NRO. SUCURSAL: 02                                                           
+  - NRO. DE CLIENTE: 112                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 03                                                          
+  - NRO. SUCURSAL: 03                                                           
+  - NRO. DE CLIENTE: 113                                                        
+****************************************                                        
+****************************************                                        
+* NOVEDAD NO ENCONTRADA                                                         
+  - TIPO DE CUENTA: 03                                                          
+  - NRO. SUCURSAL: 03                                                           
+  - NRO. DE CLIENTE: 115                                                        
+****************************************                                        
+                                                                                
+**************************************************                              
+*                PROGRAMA PGMSIN31               *                              
+**************************************************                              
+                                                                                
+**************************************************                              
+*                                                *                              
+* NOVEDADES LEIDAS:                         14   *                              
+*                                                *                              
+* CLIENTES ENCONTRADOS:                      1   *                              
+* CLIENTES NO ENCONTRADOS:                   0   *                              
+* SALDOS ACTUALIZADOS:                       1   *                              
+*                                                *                              
+**************************************************                              
