@@ -51,12 +51,10 @@ Programa de generación de reportes con agrupamiento mediante consulta JOIN a ta
 * Sincronización entre <strong>FETCH</strong> y <strong>comparación de claves</strong>
 
 📂 **Archivos Principales**  
-* `PGMB2CAB.cob` 🟦 (Programa con cursor SQL + corte)  
-* `SYSOUT.txt` 📊 (Salida display + Reporte de ejecución)  
+* `PGMB2CAB.cob` 🟦 (Programa COBOL | SQL embebido + corte de control)  
+* `SYSOUT.txt` 📊 (Salida obtenida)  
 
 🔧 **Archivos de Soporte**  
-* `COMPCDB2.txt` ⚙️ (JCL para compilación con SQL embebido)  
-* `BINDESTU.txt` ⚙️ (JCL para proceso BIND)  
 * `JCLB2CAB.txt` 🖥️ (JCL de ejecución)  
 
 💡 **Técnicas Aprendidas** 

@@ -1,0 +1,21 @@
+1          CLIENTES DE LA TABLA TBCURCTA ENCONTRADOS EN LA TABLA TBCURCLI - FECHA: 17/07/2025                      
+ | NRO. DE CLIENTE | TIPO DE DOCUMENTO | NRO. DE DOCUMENTO |       NOMBRE Y APELLIDO        | NRO. DE SUCURSAL |   
+ |                 |                   |                   |                                |                  |   
+ |        10       |        DU         |    00000000111    | AMASO FLORES JUANA INES        |        01        |   
+ |        11       |        DU         |    00000000135    | COMOMIRO ESTEBAN JOSE          |        01        |   
+ |        13       |        DU         |    00000000555    | PERENCIO CARMEN                |        02        |   
+ |        15       |        DU         |    00000000666    | PAZ JUAN PEDRO                 |        03        |   
+ |        16       |        PA         |    00000000234    | PERA FEDERICO                  |        03        |   
+ |        17       |        PA         |    00000000333    | PACIENCIA NOEMI                |        04        |   
+ |        18       |        PA         |    00000000456    | PRIETO JOSE                    |        04        |   
+1          CLIENTES DE LA TABLA TBCURCTA ENCONTRADOS EN LA TABLA TBCURCLI - FECHA: 17/07/2025                      
+ | NRO. DE CLIENTE | TIPO DE DOCUMENTO | NRO. DE DOCUMENTO |       NOMBRE Y APELLIDO        | NRO. DE SUCURSAL |   
+ |                 |                   |                   |                                |                  |   
+ |        20       |        PE         |    00000000234    | PEREZ MARCELA                  |        05        |   
+ |        21       |        PE         |    00000000456    | PRUDENCIO MARIA JOSE           |        05        |   
+ |        22       |        PE         |    00000000789    | EQUINOCCIO JACINTO             |        06        |   
+ |        23       |        PE         |    00000000999    | PEREYRA LUCENA MARTIN          |        07        |   
+ |       124       |        CI         |    00012125660    | ITUZAINGO                      |        01        |   
+ ------------------------------------------------------------------------------------------------------------------
+ FINAL LISTADO CLIENTES                                                                                            
+ ------------------------------------------------------------------------------------------------------------------

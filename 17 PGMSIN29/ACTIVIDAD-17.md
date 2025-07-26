@@ -53,10 +53,10 @@ Programa de gestión de clientes con operaciones de alta y modificación mediant
 * Gestión de <strong>transacciones implícitas</strong>
 
 📂 **Archivos**  
-* `PGMSIN29.cob` 🗂️ (Programa con SQL embebido)  
+* `PGMSIN29.cob` 🗂️ (Programa COBOL | SQL embebido)  
 * `JCLSIN29.txt` ⚙️ (JCL de ejecución)  
 * `NOVECLIE(COPY).txt` 📑 (Estructura de registros)  
-* `SYSOUT.txt` 📋 (Reporte de resultados)  
+* `SYSOUT.txt` 📋 (Salida obtenida)  
 
 💻 **Técnicas Clave Implementadas**
 

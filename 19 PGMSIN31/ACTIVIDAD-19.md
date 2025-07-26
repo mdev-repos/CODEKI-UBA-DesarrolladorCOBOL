@@ -57,9 +57,9 @@ Programa de actualización de saldos mediante apareo entre archivo de novedades 
 * Gestión de <strong>errores SQL</strong> durante el apareo
 
 📂 **Archivos**  
-* `PGMSIN31.cob` 🗂️ (Programa principal)  
+* `PGMSIN31.cob` 🗂️ (Programa COBOL)  
 * `JCLSIN31.txt` ⚙️ (JCL de ejecución)  
-* `SYSOUT.txt` 📋 (Reporte de salida)  
+* `SYSOUT.txt` 📋 (Salida obtenida)  
 * `PGMSIN31.SORT(QSAM).txt` 📁 (Datos de entrada)  
 * `NOVCTA(COPY).txt` 📑 (Copybook de estructura)  
 * `CURSOR-DATA.txt` 🔍 (Resultados del cursor)  

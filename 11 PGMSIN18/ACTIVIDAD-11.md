@@ -81,16 +81,16 @@
 * Generar **métricas comparativas** entre ambos enfoques
 
 📂 **Archivos Actividad 1 (Secuencial)**
-* `PGMSN18A.cob` 🟦 (Programa COBOL de Apareo Bancario)
+* `PGMSN18A.cob` 🟦 (Programa COBOL | Apareo Bancario)
 * `JCLSN18A.txt` ⚙️ (Job con pre-SORT de novedades)
 * `NOVEDAD.SORT.txt` 📄 (Novedades Output)
 * `CPCLIENS(COPY).txt` 📄 (Copybook de archivo de Salida)
-* `SYSOUT(PGMSN18A).txt` 📋 (Display requeridos y resumen) 
+* `SYSOUT(PGMSN18A).txt` 📋 (Salida obtenida) 
 
 📂 **Archivos Actividad 2 (Random)**
-* `PGMSN18B.cob` 🟦 (Programa COBOL con Acceso directo por clave)
+* `PGMSN18B.cob` 🟦 (Programa COBOL | Acceso directo por clave)
 * `JCLSN18B.txt` ⚙️ (Job sin preprocesamiento)
-* `SYSOUT(PGMSN18B).txt` 📋 (Display requeridos y resumen) 
+* `SYSOUT(PGMSN18B).txt` 📋 (Salida obtenida) 
 
 📂 **Archivos de ambas Actividades**
 * `CLIENTES(VSAM).txt` 📄 (Archivo KSDS)

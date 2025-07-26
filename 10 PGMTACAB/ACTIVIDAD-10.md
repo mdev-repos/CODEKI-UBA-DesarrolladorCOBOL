@@ -66,11 +66,11 @@ no se encuentra el producto; realizar mismo DISPLAY que punto 2.
 * Optimizar el **mapeo productos-precios** en memoria
 
 📂 **Archivos**  
-* `PGMTACAB.cob` 🟦 (Programa con vector embebido)  
+* `PGMTACAB.cob` 🟦 (Programa COBOL | Vector embebido)  
 * `JCLTACAB.txt` ⚙️ (Job para ejecución)  
 * `PRODUCT1(QSAM).txt` 📁 (Catálogo de productos)  
 * `PRECIO(QSAM).txt` 💰 (Listado de precios)  
-* `SYSOUT.txt` 📋 (Reporte final de productos+precios)
+* `SYSOUT.txt` 📋 (Salida obtenida)
 
 📝 **Nota**
 * Patrón esencial para:

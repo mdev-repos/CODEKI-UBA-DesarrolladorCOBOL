@@ -43,11 +43,11 @@ funcionalidad solicitada
 * Inicializar y actualizar el totalizador (`WS-TOTAL-DU`) sin interferir con el proceso principal.
 
 📂 **Archivos**  
-* `PGM3CCAB.cob` 🟦 (Lógica de filtrado y suma de saldos)  
+* `PGM3CCAB.cob` 🟦 (Programa COBOL | Lógica de filtrado y suma de saldos)  
 * `JCL3CCAB.txt` ⚙️ (Job con asignación del archivo CLIENTES)  
 * `CPCLI(COPY).txt` 📄 (Copybook con estructura del registro)  
 * `CLIENTE(QSAM).txt` 📁 (Dataset de entrada - QSAM) 
-* `SYSOUT.txt` 📋 (Ejemplo de salida esperada)
+* `SYSOUT.txt` 📋 (Salida obtenida)
 
 📝 **Nota**
 * Primer contacto con filtrado de registros y totalizadores en COBOL. ¡Esencial para procesamiento batch bancario!.

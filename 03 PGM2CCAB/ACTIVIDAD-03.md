@@ -62,11 +62,11 @@ significativos.
 * Manejar dos niveles de totalización: por sucursal y general.
 
 📂 **Archivos**  
-* `PGM2CCAB.cob` 🟦 (Programa con lógica de corte de control)  
+* `PGM2CCAB.cob` 🟦 (Programa COBOL | Lógica de corte de control)  
 * `JCL2CCAB.txt` ⚙️ (Job para ejecución en Mainframe)  
 * `CORTE(COPY).txt` 📄 (Copybook con estructura del registro)  
 * `CORTE(QSAM).txt` 📁 (Dataset de entrada - QSAM)  
-* `SYSOUT.txt` 📋 (Ejemplo de salida esperada)
+* `SYSOUT.txt` 📋 (Salida obtenida)
 
 📝 **Nota**
 * Primer programa con corte de control, técnica fundamental para reportes bancarios (ej: balances por sucursal).

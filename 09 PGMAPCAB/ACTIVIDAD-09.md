@@ -47,14 +47,14 @@
 * Garantizar **precondiciones** (archivos ordenados por clave)
 
 📂 **Archivos**  
-* `PGMAPCAB.cob` 🟦 (Programa de apareo bancario)  
+* `PGMAPCAB.cob` 🟦 (Programa COBOL | Apareo bancario)  
 * `JCLAPCAB.txt` ⚙️ (Job con asignación de archivos)  
 * `CLIENTE(COPY).txt` 📄 (Copybook maestro)  
 * `MOVIMCC(COPY).txt` 📄 (Copybook de movimientos)  
 * `CLIENTE(QSAM).txt` 📁 (Dataset maestro)  
 * `MOVIMCC(QSAM).txt` 📁 (Dataset de transacciones)  
 * `SALIDA(QSAM).txt` 💾 (Clientes actualizados)  
-* `SYSOUT.txt` 📋 (Registros huérfanos y resumen) 
+* `SYSOUT.txt` 📋 (Salida obtenida) 
 
 💡 **Precondiciones** 
 * Ambos archivos deben estar ordenados.

@@ -73,11 +73,11 @@ significativos.
 * Asegurar el formato correcto de los **DISPLAY** con sangrías para reflejar la jerarquía de datos.
 
 📂 **Archivos**  
-* `PGMSIN12.cob` 🟦 (Programa con corte de 2 niveles)  
+* `PGMSIN12.cob` 🟦 (Programa COBOL | Corte de control de 2 niveles)  
 * `JCLSIN12.txt` ⚙️ (Job para ejecución en Mainframe)  
 * `CORTE(COPY).txt` 📄 (Copybook con estructura del registro)  
 * `CORTE(QSAM).txt` 📁 (Dataset de entrada - QSAM)  
-* `SYSOUT.txt` 📋 (Ejemplo de salida jerárquica) 
+* `SYSOUT.txt` 📋 (Salida obtenida) 
 
 📝 **Nota**
 * Este ejercicio simula reportes bancarios reales (ej: balances por sucursal y tipo de producto). Clave para entender cómo procesar datos jerárquicos en entornos legacy.

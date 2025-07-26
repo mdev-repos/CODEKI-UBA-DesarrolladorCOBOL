@@ -40,4 +40,4 @@ El nombre del nuevo programa será <strong>PGMSUMA</strong>.
 📂 **Archivos**
 * `PGMSUMA.cob` 🟦 (Código COBOL con la solución)
 * `JCLSUMA.txt` ⚙️ (Job para ejecutar el programa)
-* `SYSOUT.txt` 📋 (Ejemplo de salida esperada)
+* `SYSOUT.txt` 📋 (Salida obtenida)

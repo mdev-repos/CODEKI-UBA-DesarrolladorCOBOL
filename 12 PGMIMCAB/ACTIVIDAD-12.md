@@ -49,12 +49,12 @@ Esta actividad se podrá visualizar desde el editor o bajar a papel impreso ( pr
 <br>
 
 📂 **Archivos del Proyecto**
-* `PGMIMCAB.cob` 🟦 (Programa principal con lógica de impresión)
+* `PGMIMCAB.cob` 🟦 (Programa COBOL | Lógica de impresión [FBA])
 * `JCLIMCAB.txt` ⚙️ (Job con pre-SORT y configuración FBA)
 * `CPCLIENS(COPY).txt` 📄 (Copybook de entrada)
 * `CLIENTE(QSAM).txt` 📁 (Dataset de clientes)
-* `SALIDA(FBA).txt` 📜 (Ejemplo de reporte generado)
-* `SYSOUT.txt` 📜 (Estadísticas del programa)
+* `SALIDA(FBA).txt` 📜 (Listado FBA generado)
+* `SYSOUT.txt` 📜 (Salida obtenida)
 <br>
 
 

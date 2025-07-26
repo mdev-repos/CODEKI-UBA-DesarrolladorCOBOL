@@ -54,12 +54,12 @@
 * Manejar **registros con múltiples errores** sin interrumpir el flujo
 
 📂 **Archivos**  
-* `PGMVACAB.cob` 🟦 (Programa con validación extendida)  
+* `PGMVACAB.cob` 🟦 (Programa COBOL | Validación extendida)  
 * `JCLVACAB.txt` ⚙️ (Job con asignación de archivos)  
 * `CPNOVCLI(COPY).txt` 📄 (Copybook con estructura y validaciones)  
 * `NOVCLIEN(QSAM).txt` 📁 (Dataset de novedades)  
 * `NOVCLIEN.VALID(QSAM).txt` ✅ (Dataset de salida para válidos)  
-* `SYSOUT.txt` 📋 (Ejemplo de salida con errores y resumen)
+* `SYSOUT.txt` 📋 (Salida obtenida)
 
 📝 **Nota**
 * Sistema completo de validación de datos para procesos ETL bancarios. Patrón aplicable a:

@@ -53,9 +53,9 @@ Programa de generación de listados mediante consulta JOIN a tablas DB2.
 * Mapeo de tipos de datos SQL → COBOL
 
 📂 **Archivos Principales**  
-* `PGMSIN28.cob` 🟦 (Programa con cursor SQL)  
+* `PGMSIN28.cob` 🟦 (Programa COBOL | Cursor SQL)  
 * `LISTADO.CLIENTES.txt` 📋 (Salida FBA generada)  
-* `SYSOUT.txt` 📊 (Reporte de ejecución)  
+* `SYSOUT.txt` 📊 (Salida obtenida)  
 
 🔧 **Archivos de Soporte**  
 * `JCLSIN28.txt` 🖥️ (JCL de ejecución)  

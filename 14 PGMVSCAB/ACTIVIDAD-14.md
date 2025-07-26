@@ -52,11 +52,11 @@ Programa de transformación de datos VSAM a formato impresión con conversiones 
 * Formateo de <strong>fechas AAAAMMDD</strong> a DD/MM/AAAA
 
 📂 **Archivos**  
-* `PGMVSCAB.cob` 🗂️ (Programa principal)  
+* `PGMVSCAB.cob` 🗂️ (Programa COBOL)  
 * `JCLVSCAB.txt` ⚙️ (JCL con parámetros VSAM)  
 * `CPCLIE(COPY).txt` 📑 (Copybook de estructura)  
-* `PGMVSCAB.SALIDA.txt` 🖨️ (Ejemplo de salida FBA)  
-* `SYSOUT.txt` 📋 (Log de ejecución)  
+* `PGMVSCAB.SALIDA.txt` 🖨️ (Archivo FBA generado)  
+* `SYSOUT.txt` 📋 (Salida obtenida)  
 
 💻 **Técnicas Clave Implementadas**
 ```cobol

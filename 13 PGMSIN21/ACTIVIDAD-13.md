@@ -53,10 +53,10 @@ Programa de generación de reportes con lógica de corte de control y formato FB
 * Conversión de datos numéricos a formatos visuales
 
 📂 **Archivos**  
-* `PGMSIN21.cob` 🖨️ (Programa con estructuras FBA)  
+* `PGMSIN21.cob` 🖨️ (Programa COBOL | Estructura FBA)  
 * `JCLSIN21.txt` ⚙️ (JCL de ejecución)  
-* `PGMSIN21.SALIDA.txt` 📋 (Ejemplo de salida FBA)  
-* `SYSOUT.txt` 📊 (Resultados de ejecución)  
+* `PGMSIN21.SALIDA.txt` 📋 (Archivo FBA generado)  
+* `SYSOUT.txt` 📊 (Salida obtenida)  
 
 💻 **Estructuras Clave**  
 ```cobol

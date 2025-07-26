@@ -52,12 +52,12 @@
 * Mantener **contadores precisos** para métricas finales (válidos, inválidos, totales)
 
 📂 **Archivos**  
-* `PGMSIN14.cob` 🟦 (Programa con validación y doble salida)  
+* `PGMSIN14.cob` 🟦 (Programa COBOL | Validación y doble salida)  
 * `JCLSIN14.txt` ⚙️ (Job con asignación de archivos)  
 * `CPNOVCLI(COPY).txt` 📄 (Copybook de entrada - 50 bytes)  
 * `CPNCLIV(COPY).txt` 📄 (Copybook de salida para válidos)  
 * `NOVCLIEN(QSAM).txt` 📁 (Dataset de novedades)  
-* `SYSOUT.txt` 📋 (Ejemplo de salida con estadísticas) 
+* `SYSOUT.txt` 📋 (Salida obtenida) 
 
 📝 **Nota**
 * Ejercicio clave para procesamiento de novedades en bancos (ej: validación de documentos en altas de clientes).

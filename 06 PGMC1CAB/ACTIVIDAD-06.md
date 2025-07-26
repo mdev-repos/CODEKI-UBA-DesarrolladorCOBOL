@@ -43,11 +43,11 @@
 * Garantizar que **todos los registros** sean contabilizados (tanto válidos como totales)
 
 📂 **Archivos**  
-* `PGMC1CAB.cob` 🟦 (Programa con validación por estado civil)  
+* `PGMC1CAB.cob` 🟦 (Programa COBOL | Validación por estado civil)  
 * `JCLC1CAB.txt` ⚙️ (Job para ejecución en Mainframe)  
 * `CLICOB(COPY).txt` 📄 (Copybook con estructura de 93 bytes)  
 * `CLICOB(QSAM).txt` 📁 (Dataset de clientes)  
-* `SYSOUT.txt` 📋 (Ejemplo de reporte final)  
+* `SYSOUT.txt` 📋 (Salida obtenida)  
 
 📝 **Nota**
 * Programa fundamental para análisis demográficos en sistemas bancarios (ej: segmentación de clientes).

@@ -51,16 +51,12 @@ Programa de actualización de clientes mediante operaciones masivas desde archiv
 * Configuración de entorno DB2 (precompilado y bind)
 
 📂 **Archivos Principales**  
-* `PGMB2CAB.cob` 🟦 (Programa con SQL embebido)  
-* `NOVECLI.KSDS.txt` 📁 (Datos de entrada VSAM)  
-* `TBVCLIEN.txt` 📋 (Layout de registros)  
-* `SYSOUT.txt` 📊 (Reporte de ejecución)  
-
-🔧 **Archivos de Soporte (multi-ejercicio)**  
-* `COMPDB2(SQL-EMBEBIDO).txt` ⚙️ (JCL para compilación con SQL)  
-* `BINDESTU(BIND).txt` 🔗 (JCL para bindeo PGM-DB2)  
+* `PGMB2CAB.cob` 🟦 (Programa COBOL | SQL embebido)  
+* `NOVECLI.KSDS.txt` 📁 (Datos de entrada VSAM)
 * `JCLDB2XX.txt` 🖥️ (JCL de ejecución)  
-* `JCLVSAM.txt` 🗃️ (JCL generación archivos VSAM)  
+* `JCLVSAM.txt` 🗃️ (JCL generación archivos VSAM)    
+* `TBVCLIEN.txt` 📋 (Layout de registros)  
+* `SYSOUT.txt` 📊 (Salida obtenida)  
 
 📝 **Nota Técnica**  
 * Patrón base para:

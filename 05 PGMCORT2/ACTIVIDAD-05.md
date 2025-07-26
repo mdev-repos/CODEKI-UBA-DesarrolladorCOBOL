@@ -43,11 +43,11 @@
 * Organizar **contadores anidados** (tipo doc > sexo) con reinicialización adecuada
 
 📂 **Archivos**  
-* `PGMCORT2.cob` 🟦 (Programa con validación y doble corte)  
+* `PGMCORT2.cob` 🟦 (Programa COBOL | Validación y doble corte de control)  
 * `JCLCORT2.txt` ⚙️ (Job con asignación de archivos)  
 * `CLICOB(COPY).txt` 📄 (Copybook con estructura de 93 bytes)  
 * `CLICOB(QSAM).txt` 📁 (Dataset de clientes)  
-* `SYSOUT.txt` 📋 (Ejemplo de reporte final)  
+* `SYSOUT.txt` 📋 (Salida obtenida)  
 
 📝 **Nota**
 * Ejercicio clave para reportes demográficos en bancos (ej: análisis por tipo documento y género).
