@@ -1,0 +1,30 @@
+      **************************************                            
+      *         LAYOUT MAESTRO PERSONAS    *                            
+      *                                    *                            
+      *  KC2788.ALU9999.PERSONA.KSDS.VSAM  *                            
+      *                                    *                            
+      *         LARGO 160 BYTES            *                            
+      *        VSAM KSDS KEY (1,13)        *                            
+      *                                    *                            
+      *    ALTER KEY     (13,3)  (CLI-NRO) *                            
+      *                                    *                            
+      **************************************                            
+                                                                        
+       01  REG-PERSONA.                                                 
+           03  PER-CLAVE.                                               
+               05  PER-TIP-DOC            PIC X(02).                    
+               05  PER-NRO-DOC            PIC 9(11).                    
+           03  PER-CLI-NRO            PIC 9(03).                        
+           03  PER-NOMAPE             PIC X(30).                        
+           03  PER-CLI-AAAAMMDD       PIC 9(08).                        
+           03  PER-DIRECCION          PIC X(30).                        
+           03  PER-LOCALIDAD          PIC X(15).                        
+           03  PER-EMAIL              PIC X(30).                        
+           03  PER-TELEFONO           PIC X(15).                        
+           03  PER-SEXO               PIC X    .                        
+           03  PER-NRO-SUCURSAL       PIC 9(03).                        
+      *    FECHA DE BAJA (SI ESTá VACíO, ES CLIENTE ACTIVO)             
+      *    FORMATO AAAAMMDD                                             
+           03  PER-BAJ-AAAAMMDD       PIC X(08).                        
+           03  FILLER                 PIC X(04).                        
+                                                                        

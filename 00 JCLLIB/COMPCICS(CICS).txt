@@ -1,0 +1,18 @@
+//KC03CABZ JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID,        
+//             REGION=0M                                                
+//*
+//***********************************************                       
+//*   COMPILADOR COBOL/CICS                     *                                               
+//***********************************************                       
+//*
+//JCLLIB JCLLIB ORDER=KC02788.ALU9999.PROCLIB                           
+//STEP1  EXEC PROCCICS,PARM.TRN='COBOL3,NOSEQ',                         
+//       ALUMLIB=KC03CAB.CURSOS,                                        
+//       GOPGM='NOMBRE PGM COBOL CICS'                                               
+//*                                                                     
+//*  PARA COPY DE ESTRUCTURA DE MAPAS                                   
+//COB.SYSLIB DD DSN=KC03CAB.CURSOS.COPYLIB,DISP=SHR                     
+//*  PARA COPY DE ESTRUCTURA DE ARCHIVOS                                
+//           DD DSN=KC02788.ALU9999.COPYLIB,DISP=SHR                    
+//*  PARA COPY DE ESTRUCTURA DE DFH CICS                                
+//           DD DSN=DFH610.CICS.SDFHCOB,DISP=SHR                        

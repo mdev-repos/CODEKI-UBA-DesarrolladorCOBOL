@@ -1,0 +1,65 @@
+//COMPCOBO PROC LNGPRFX='IGY630',LIBPRFX='CEE',ALUMLIB=,GOPGM= 
+//* 
+//********************************************************************* 
+//*                                                                   * 
+//*  IBM Enterprise COBOL for z/OS                                    * 
+//*               Version 6 Release 3 Modification 0                  * 
+//*                                                                   * 
+//*  LICENSED MATERIALS - PROPERTY OF IBM.                            * 
+//*                                                                   * 
+//*  5655-EC6 COPYRIGHT IBM CORP. 1983, 2019                          * 
+//*                                                                   * 
+//*  US GOVERNMENT USERS RESTRICTED RIGHTS - USE,                     * 
+//*  DUPLICATION OR DISCLOSURE RESTRICTED BY GSA                      * 
+//*  ADP SCHEDULE CONTRACT WITH IBM CORP.                             * 
+//*                                                                   * 
+//********************************************************************* 
+//* 
+//*  COMPILE AND LINK EDIT A COBOL PROGRAM 
+//* 
+//*  PARAMETER  DEFAULT VALUE    USAGE 
+//*   LNGPRFX   IGY630           PREFIX FOR LANGUAGE DATA SET NAMES 
+//*   LIBPRFX   CEE              PREFIX FOR LIBRARY DATA SET NAMES 
+//*   PGMLIB    &&GOSET          DATA SET NAME FOR LOAD MODULE 
+//*   GOPGM     GO               MEMBER NAME FOR LOAD MODULE 
+//* 
+//*  CALLER MUST SUPPLY //COBOL.SYSIN DD ... 
+//* 
+//*  CALLER MUST ALSO SUPPLY //COBOL.SYSLIB DD ... for COPY statements 
+//* 
+//*  NOTE:  SYSUT* datasets must be single-volume datasets 
+//* 
+//COBOL  EXEC PGM=IGYCRCTL,REGION=0M 
+//STEPLIB  DD  DSN=&LNGPRFX..SIGYCOMP,DISP=SHR 
+//         DD  DSN=&LIBPRFX..SCEERUN,DISP=SHR 
+//         DD  DSN=&LIBPRFX..SCEERUN2,DISP=SHR 
+//SYSIN    DD  DSN=&ALUMLIB..FUENTE(&GOPGM),DISP=SHR 
+//SYSPRINT DD  SYSOUT=* 
+//SYSLIN   DD  DSN=&&LOADSET,UNIT=SYSALLDA, 
+//             DISP=(MOD,PASS),SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT1   DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT2   DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT3   DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT4   DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT5   DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT6   DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT7   DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT8   DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT9   DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT10  DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT11  DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT12  DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT13  DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT14  DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSUT15  DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//SYSMDECK DD  UNIT=SYSALLDA,SPACE=(CYL,(1,1)),VOL=(,,,1) 
+//LKED   EXEC PGM=IEWBLINK,COND=(8,LT,COBOL),REGION=0M 
+//SYSLIB   DD  DSN=&LIBPRFX..SCEELKEX,DISP=SHR 
+//         DD  DSN=&LIBPRFX..SCEELKED,DISP=SHR 
+//         DD  DSN=&ALUMLIB..PGMLIB,DISP=SHR 
+//SYSPRINT DD  SYSOUT=* 
+//SYSLIN   DD  DSN=&&LOADSET,DISP=(OLD,DELETE) 
+//         DD  DDNAME=SYSIN 
+//SYSLMOD  DD  DSN=&ALUMLIB..PGMLIB(&GOPGM), 
+//             SPACE=(CYL,(1,1,1)), 
+//             UNIT=SYSALLDA,DISP=(MOD,PASS),DSNTYPE=LIBRARY 

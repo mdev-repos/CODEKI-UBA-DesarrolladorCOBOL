@@ -1,0 +1,10 @@
+//KC03CABM JOB CLASS=A,MSGCLASS=O,MSGLEVEL=(1,1),NOTIFY=&SYSUID         
+//*
+//***********************************************                       
+//*   COMPILADOR MAPAS CICS                     *                           
+//***********************************************                       
+//*
+//JCLLIB JCLLIB ORDER=KC02788.ALU9999.PROCLIB                           
+//STEP1  EXEC PROCMAPA,                                                 
+//       ALUMLIB=KC03CAB.CURSOS,                                        
+//       MAPNAME='MAPA CICS'                                              

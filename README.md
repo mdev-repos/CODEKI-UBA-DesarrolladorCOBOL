@@ -26,11 +26,23 @@ Si te gusta como trabajo y me quieres en tu equipo o quieres darme algún consej
 
 <hr>
 
-### 💻 Práctica real en Mainframe (6 meses)
+### 💻 Práctica real en Mainframe (7 meses)
 
-<img src="./00 MEDIA/FUENTE.png" alt="Z/OS Mainframe" width="500" />
+<img src="./00 MEDIA/ISPF.png" alt="TSO/ISPF" width="420" />
+<img src="./00 MEDIA/FUENTE.png" alt="3.4" width="420" />
 
-### 📌 Etapa 1: Fundamentos COBOL (Ejercicios 1-14)
+####  Entorno de trabajo TSO / ISPF | Terminal 3270
+
+<br/>
+<hr>
+<br/>
+
+
+### 📌 Etapa 1: Fundamentos COBOL | COBOL BATCH (Ejercicios 1-14)
+
+<img src="./00 MEDIA/COBOL-BATCH.png" alt="CODIGO COBOL" width="550" />
+
+<br/>
 
 </div>
 
@@ -53,9 +65,16 @@ Si te gusta como trabajo y me quieres en tu equipo o quieres darme algún consej
 
 <div style="text-align:center">
 
+<br/>
 <hr>
+<br/>
 
-### 🛢️ Etapa 2: Integración con DB2 (Ejercicios 15-XX)
+### 🛢️ Etapa 2: Integración con DB2 / SQL Embebido (Ejercicios 15-20)
+
+<img src="./00 MEDIA/COBOL-DB2.png" alt="CODIGO COBOL" width="550" />
+
+<br/>
+
 
 </div>
 
@@ -66,13 +85,35 @@ Si te gusta como trabajo y me quieres en tu equipo o quieres darme algún consej
 | 17 | PGMSIN29       | Validaciones + INSERT & UPDATE a tablas DB2 | COBOL, JCL, SQL      | QSAM, DB2          |
 | 18 | PGMB2CAB       | Consultas con CURSOR + Corte de control | COBOL, JCL, SQL      | DB2, CURSOR, ORDER BY |
 | 19 | PGMSIN31       | Apareo de archivo QSAM con CURSOR | COBOL, JCL, SQL      | DB2, CURSOR, QSAM |
-| 20 | PGMRUCAB       | CALL y Rutinas | COBOL, JCL     | CALL, Rutinas  |
-| 21 | PGMB7CAB       | Apareo de dos CURSORES con salida FBA | COBOL, JCL, SQL      | DB2, CURSOR, FBA |
+| 20 | PGMB7CAB       | Apareo de dos CURSORES con salida FBA | COBOL, JCL, SQL      | DB2, CURSOR, FBA |
 
 <br/>
 
-<hr>
+<div style="text-align:center">
 
+<br/>
+<hr>
+<br/>
+
+### 🔀 Etapa 3: Transacciones con CICS (Ejercicios 21-xx)
+
+<img src="./00 MEDIA/CICS.png" alt="CODIGO COBOL" width="550" />
+
+<br/>
+
+
+</div>
+
+| #  | Programa       | Técnicas Aplicadas                 | Tecnologías          | Conceptos Adicionales          |
+|----|----------------|-------------------------------------|----------------------|--------------------------------|
+| 21 | PGMBACAB       | Envío de texto a terminal mediante CICS | COBOL, BMS, JCL, CICS      | SEND TEXT    |
+| 22 | PGMMECAB       | Creación de MENU para CICS           | COBOL, BMS, JCL, CICS   | SEND MAP / RECEIVE MAP, XCTL, BMS |
+| 23 | PGMPRCAB       | Funcionalidad CONSULTA de cliente con CICS | COBOL, BMS, JCL, CICS  | READ DATASET, VSAM en TABLA CICS, COMMAREA, RETURN TRANSID |
+
+<br/>
+
+<br/>
+<hr>
 <br/>
 
 <div style="text-align:center">
@@ -82,22 +123,28 @@ Si te gusta como trabajo y me quieres en tu equipo o quieres darme algún consej
 Antes de especializarme como Desarrollador **COBOL Mainframe** estaba enfocado en el **Backend con Java** principalmente. Esa larga experiencia previa (+2 años) me permitieron acercarme a distintos paradigmas de programación y patrones de diseño, por lo que valoro mucho el tiempo de mantenimiento y la escabilidad del código que escribo.
 He traido esa rica "mochila" conmigo al Mainframe, por lo que mi codigo **COBOL** se caracteriza por ser claro, prolijo y bien documentado. Mis programas siguen buenas practicas Estructuradas, donde priorizo la **modularidad** y **claridad** para que el mantenimiento del codigo no sea engorroso ni para mi, ni para cualquier otro desarrollador que tenga que hacerlo.  
 
+</br>
+
 <img src="./00 MEDIA/CODIGO1.png" alt="Z/OS Mainframe" width="500" />
+
+</br>
 </br>
 
 <img src="./00 MEDIA/CODIGO2.png" alt="Z/OS Mainframe" width="500" />
+
+</br>
 </br>
 
 <img src="./00 MEDIA/CODIGO3.png" alt="Z/OS Mainframe" width="500" />
+
+</br>
 </br>
 
 </div>
 
-</br>
-
+<br/>
 <hr>
-
-</br>
+<br/>
 
 **Leyenda:**  
 🔷 **Tecnologías Principales**:  
@@ -105,14 +152,21 @@ He traido esa rica "mochila" conmigo al Mainframe, por lo que mi codigo **COBOL*
 - **JCL**: Job Control Language  (Lenguaje de control de trabajo en Mainframe)
 - **SQL**: Structured Query Language (Lenguaje de Base de Datos)
 - **DB2**: DBMS propio de IBM (Mainframe)  
-- **CICS**: Customer Information Control System (Gestor transaccional IBM - Próximamente!!)  
+- **CICS**: Customer Information Control System (Gestor transaccional IBM)
+- **ASEMBLER**: Lenguaje de Programación de Bajo nivel (Utilizado en el curso para generar los BMS)
 
-🔸 **Conceptos Adicionales**:  
+<br/>
+<hr>
+<br/>
+
+🔸 **Conceptos Adicionales**:
+- **TSO / ISPF**: Entorno de trabajo en Mainframe z/OS mediante terminal 3270  
 - **QSAM**: Archivos secuenciales  
 - **VSAM**: Archivos indexados  
 - **FBA**: Formato de impresión  
 - **SORT**: Ordenamiento de datos  
 - **CORTE**: Control de rupturas  
 - **CURSOR**: Manejo de resultados SQL  
+- **BMS**: Basic Mapping Support (Mapas | Soporte visual para CICS)
 
 </div>
